@@ -90,11 +90,11 @@ function Companies() {
   ]
 
   return (
-    <section className="container-fluid cmain">
-         <div className="text m-0 mb-5 py-5">
+    <section className="container-fluid cmain p-0">
+         <div className="text mb-5 py-5">
             <h2>Our <span className=' p-1 rounded-2 fs-3 anim-text'>Students</span> Working at</h2>
         </div>
-        <div className="inner">
+        <div className="inner rounded-0">
        
         <div className="company-list1">
             <div className="scroll1">
