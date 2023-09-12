@@ -17,6 +17,7 @@ header {
     box-shadow: 0px 5px 10px #141627;
     /* border-bottom: 5px solid #ffffff; */
     position: relative;
+    max-width: 100%;
 
 
 }
@@ -39,6 +40,17 @@ header img{
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     align-items: center;
+}
+@media (max-width:528px){
+    .mynavbar{
+        flex-direction: column;
+        gap: 20px;
+    }
+    header{
+        flex-direction: column;
+        align-items: start;
+        text-align: left;
+    }
 }
 
 .mynavbar .an {
@@ -91,6 +103,43 @@ header img{
     overflow: hidden;
 
 }
+@media (max-width:528px){
+    .content{
+        position: inherit;
+        min-width: 100%;
+    }
+    .rows{
+        width: 100%;
+    }
+    .mega-drop:hover .content {
+        /* display: block; */
+        /* min-height: 300px; */
+        max-height: fit-content;
+        transition: 0.5s ease-out;
+        width: 100%;
+    }
+    .mega-drop{
+        float: left;
+        text-align: left;
+    }
+    .an{
+        min-width: 100%;
+        text-align: left;
+        float: left;
+        display: flex;
+        justify-content: start;
+        
+    }
+    .an:hover{
+        background: white;
+        color: #000;
+    }
+    .mynavbar{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+}
 
 .content .header {
     padding: 16px;
@@ -100,7 +149,7 @@ header img{
 .mega-drop:hover .content {
     /* display: block; */
     /* min-height: 300px; */
-    height: 70vh;
+    min-height: 70vh;
     transition: 0.5s ease-out;
 }
 

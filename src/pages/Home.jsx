@@ -14,7 +14,7 @@ import Adwantage from '../components/Adwantage'
 function Home() {
   return (
     <div className='homepage'>
-      {/* <Header/> */}
+      <Header/>
       <Placement/>
       <Councelling/>
       <Companies/>

@@ -14,17 +14,17 @@ function Nav() {
             <div className="mega-drop">
               <button className="dropbtn">Course <i className="bi bi-caret-down-fill"></i></button>
               <div className="content">
-                <div className="rows">
-                  <div className="devide">
+                <div className="rows row">
+                  <div className="devide col-md-6 sm-list-goup">
                     <h3>Explore Course</h3>
-                    <a href="#">Fullstack Development</a>
+                    <a href="#" className='list-group-item'>Fullstack Development</a>
                     <a href="#">Data Science</a>
                     <a href="#">Cloud Computing</a>
                     <a href="#">Software Testing</a>
                     <a href="#">Digital Marketing</a>
                     <a href="#">Job Guaranteed Course</a>
                   </div>
-                  <div className="devide">
+                  <div className="devide col-md-6">
                     <h3>Fullstack Technology</h3>
                     <a href="#">MEAN Full-Stack</a>
                     <a href="#">MERN Full-Stack</a>
