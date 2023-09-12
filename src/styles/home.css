@@ -19,6 +19,25 @@
 .home-left{
     padding: 30px;
 }
+@media (max-width:528px){
+    .home-left{
+        padding: 0px;
+    }
+    .home-left .boldtext{
+        font-size: 2em;
+    }
+    .home-left .normaltext{
+        font-size: 1.5em;
+    }
+    .points ul li{
+        padding: 2px;
+        font-size: 1em;
+        display: none;
+    }
+    .carousel-box{
+        border-radius: 5px;
+    }
+}
 .home-right{
     position: relative;
     min-height: 100vh;
