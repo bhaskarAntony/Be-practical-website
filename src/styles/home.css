@@ -52,7 +52,7 @@
 .students img{
     border-radius: 10px;
     margin: 10px;
-    animation: scale 3s ease-in-out infinite alternate;
+    /* animation: scale 3s ease-in-out infinite alternate; */
 }
 @keyframes scale {
     0% {
@@ -70,7 +70,7 @@
     border-radius: 10px;
 }
 .carousel-box{
-    background-color: #fff;
+    background-color: transparent;
     min-height: 80vh;
     border-radius: 30px;
     color: #000;
@@ -106,8 +106,8 @@
 .points ul{
     display: flex;
     flex-flow: row wrap;
-    gap: 10px;
-    list-style: none;
+    gap: 30px;
+    list-style:circle;
 }
 .points ul li:nth-child(4){
     min-width: 50%;
@@ -118,9 +118,7 @@
     }
 }
 .points ul li{
-    padding: 10px;
-    border-radius: 100px;
-    border: 2px solid #000;
+   font-size: 1.2em;
 }
 
 

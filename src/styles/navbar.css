@@ -154,14 +154,15 @@ header img{
     display: table;
     clear: both;
 }
-header .bi-list{
+header [class*="bi-list"], header [class*="bi-x-lg"]{
     display: none;
     color: #fff;
     font-size: 1.4em;
 }
-header .bi-list:hover{
+header [class*="bi-list"]:hover, header [class*="bi-x-lg"]:hover{
     padding: 5px;
     border: 2px solid #255c5c;
+    font-size: 1.4em;
 }
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
@@ -234,7 +235,7 @@ header .bi-list:hover{
     header{
         max-height: 70px;
     }
-    header .bi-list{
+    header [class*="bi-list"], header [class*="bi-x-lg"]{
         display: block !important;
     }
     header{
@@ -242,5 +243,10 @@ header .bi-list:hover{
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
+    }
+    .dropbtn{
+        min-width: 100%;
+        float: left;
+        text-align: left;
     }
 }

@@ -106,7 +106,9 @@ function Nav() {
             </div>
           </div>
         </div>
-        <i class="bi bi-list" id="toggler" onClick={toggleMenu}></i>
+        {
+          isOpen ? <i class="bi bi-x-lg" id="toggler" onClick={toggleMenu}></i> : <i class="bi bi-list" id="toggler" onClick={toggleMenu}></i>
+        }
       </header>
     // </div>
   );

@@ -39,8 +39,8 @@ class Students extends Component {
 
   randomlyPositionImages() {
     const images = imageData.map((imageObj) => {
-      const x = Math.random() * 80; // Random x-coordinate within the container
-      const y = Math.random() * 80; // Random y-coordinate within the container
+      const x = Math.random() * 150; // Random x-coordinate within the container
+      const y = Math.random() * 150; // Random y-coordinate within the container
       const size = Math.random() * 100 + 50; // Random size between 50px and 150px
 
       return (
