@@ -15,8 +15,8 @@ function Home() {
   return (
     <div className='homepage'>
       {/* <Header/> */}
-      <Councelling/>
       <Placement/>
+      <Councelling/>
       <Companies/>
       <Skills/>
       <Training/>
