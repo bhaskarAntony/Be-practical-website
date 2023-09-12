@@ -18,6 +18,8 @@ function Nav() {
     const updateMenuOnResize = () => {
       if (window.innerWidth <= 558) {
         setIsOpen(false);
+      } else {
+        setIsOpen(true);
       }
     };
 

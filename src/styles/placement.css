@@ -39,10 +39,6 @@
     background: transparent;
     text-align: left;
     background: url(https://i.pinimg.com/originals/12/4d/e3/124de3d1b5e12f1d8fcec1685e634361.gif) no-repeat center bottom;
-   
-    
-
-
 }
 .lottie button{
     margin-top: 20px;
@@ -185,4 +181,20 @@ animation: icon 1s linear infinite alternate;
         min-height: 300px;
     }
 
+}
+@media (max-width:528px){
+    .lottie h1{
+        font-size: 2em;
+    }
+    .lottie{
+        height: fit-content;
+        padding: 0px;
+    }
+    .placement-text{
+        padding: 10px;
+        max-height: 200px;
+    }
+    .placement-text, .image{
+        border-radius: 10px;
+    }
 }

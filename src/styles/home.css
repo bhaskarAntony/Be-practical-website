@@ -129,6 +129,7 @@
     .home-left{
         padding: 0px;
         min-height: fit-content;
+        height: fit-content;
     }
     .home .row{
         padding: 0px;
@@ -144,6 +145,9 @@
         font-size: 1em;
         display: none;
     }
+    .home-right{
+        display: none;
+    }
     .home{
         padding: 10px;
     }
@@ -152,6 +156,7 @@
         background: transparent;
         padding: 20px 5px;
         color: #fff;
+        max-height: fit-content;
     }
     .btn-container button{
         font-size: 1em;
