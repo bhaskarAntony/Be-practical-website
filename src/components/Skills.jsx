@@ -9,8 +9,8 @@ import video3 from '../images/video3.mp4'
 
 function Skills() {
   return (
-    <section className='container-fluid skillsmain overflow-hidden p-0'>
-      <div className=" skillsecond pt-5">
+    <section className='container-fluid skillsmain overflow-hidden'>
+      <div className=" skillsecond">
         <div className="row">
             <div className="col-12 col-md-12 col-lg-6">
                 <div className="left col-12 col-md-12 col-lg-10">

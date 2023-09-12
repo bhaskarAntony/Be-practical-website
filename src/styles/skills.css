@@ -12,6 +12,9 @@
         width: 100%;
     } */
 }
+.skillsmain{
+    padding: 4%;
+}
 .text-right h1{
     font-size: 4em;
 }
@@ -42,6 +45,7 @@
     }
     .skillsmain{
         padding: 3px;
+        max-height: fit-content;
     }
     .skillsmain .row{
         padding: 0;

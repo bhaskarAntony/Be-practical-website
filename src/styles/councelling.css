@@ -168,3 +168,26 @@ color: #4b4b4b;
             transform: scale(0.8);
         }
       }
+
+      @media (max-width:528px){
+        .header{
+            font-size: 2em;
+        }
+        .text-container p{
+            font-size: 1em;
+        }
+        .pcard img{
+            width: 60px;
+            height: 60px;
+        }
+        .pcard .card-body h3{
+            font-size: 1.2em;
+        }
+        .pcard .card-body p{
+            font-size: 0.9em;
+        }
+        .pcard{
+            padding: 5px;
+        }
+        
+      }
