@@ -9,7 +9,7 @@ function Adwantage() {
         </div>
         <div className="container">
         <div className="row">
-            <div className="col-12 col-sm-6 col-md-6 col-lg-4 mb-3">
+            <div className="col-6 col-sm-6 col-md-6 col-lg-4 mb-3">
                 <div className=" adwantage-card p-2">
                     <div className="card-header">
                     <i class="bi bi-mortarboard-fill"></i>
@@ -20,7 +20,7 @@ function Adwantage() {
                     </div>
                 </div>
             </div>
-            <div className="col-12 col-sm-6 col-md-6 col-lg-4 mb-3">
+            <div className="col-6 col-sm-6 col-md-6 col-lg-4 mb-3">
                 <div className=" adwantage-card p-2">
                     <div className="card-header">
                     <i class="bi bi-building-fill-check"></i>
@@ -31,7 +31,7 @@ function Adwantage() {
                     </div>
                 </div>
             </div>
-            <div className="col-12 col-sm-6 col-md-6 col-lg-4 mb-3">
+            <div className="col-6 col-sm-6 col-md-6 col-lg-4 mb-3">
                 <div className=" adwantage-card p-2">
                     <div className="card-header">
                     <i class="bi bi-camera-video-fill"></i>
@@ -42,7 +42,7 @@ function Adwantage() {
                     </div>
                 </div>
             </div>
-            <div className="col-12 col-sm-6 col-md-6 col-lg-4 mb-3">
+            <div className="col-6 col-sm-6 col-md-6 col-lg-4 mb-3">
                 <div className=" adwantage-card p-2">
                     <div className="card-header">
                     <i class="bi bi-laptop"></i>
@@ -53,7 +53,7 @@ function Adwantage() {
                     </div>
                 </div>
             </div>
-            <div className="col-12 col-sm-6 col-md-6 col-lg-4 mb-3">
+            <div className="col-6 col-sm-6 col-md-6 col-lg-4 mb-3">
                 <div className=" adwantage-card p-2">
                     <div className="card-header">
                     <i class="bi bi-calendar3"></i>
@@ -64,7 +64,7 @@ function Adwantage() {
                     </div>
                 </div>
             </div>
-            <div className="col-12 col-sm-6 col-md-6 col-lg-4 mb-3">
+            <div className="col-6 col-sm-6 col-md-6 col-lg-4 mb-3">
                 <div className=" adwantage-card p-2">
                     <div className="card-header">
                     <i class="bi bi-person-check-fill"></i>
@@ -76,7 +76,7 @@ function Adwantage() {
                 </div>
             </div>
            
-            <div className="col-12 col-sm-6 col-md-6 col-lg-4 mb-3">
+            <div className="col-6 col-sm-6 col-md-6 col-lg-4 mb-3">
                 <div className=" adwantage-card p-2">
                     <div className="card-header">
                     <i class="bi bi-journals"></i>
@@ -87,7 +87,7 @@ function Adwantage() {
                     </div>
                 </div>
             </div>
-            <div className="col-12 col-sm-6 col-md-6 col-lg-4 mb-3">
+            <div className="col-6 col-sm-6 col-md-6 col-lg-4 mb-3">
                 <div className=" adwantage-card p-2">
                     <div className="card-header">
                     <i class="bi bi-person-hearts"></i>
@@ -98,7 +98,7 @@ function Adwantage() {
                     </div>
                 </div>
             </div>
-            <div className="col-12 col-sm-6 col-md-6 col-lg-4 mb-3">
+            <div className="col-6 col-sm-6 col-md-6 col-lg-4 mb-3">
                 <div className=" adwantage-card p-2">
                     <div className="card-header">
                     <i class="bi bi-person-video3"></i>
