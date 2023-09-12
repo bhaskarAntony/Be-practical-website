@@ -20,6 +20,8 @@
     position: relative;
     overflow: hidden;
     padding: 40px;
+    z-index: 2;
+    margin-bottom: 20px;
 }
 .certificate-text::before{
     content: "";
@@ -30,9 +32,15 @@
     border-radius: 50%;
     left: -50%;
     bottom: -50% !important;
+    z-index: -1;
 }
 .c-header{
     font-size: 3em;
+}
+@media (max-width:528px){
+    .c-header{
+        font-size: 2em;
+    }
 }
 
 /* .caption{

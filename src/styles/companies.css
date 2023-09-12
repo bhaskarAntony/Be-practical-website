@@ -39,7 +39,7 @@
 }
 .scroll1, .scroll2{
     display: flex;
-    gap: 30px;
+    gap: 10px;
     animation: anim1 40s linear infinite;
     animation-delay: -40s;
 }
@@ -122,5 +122,9 @@
     .company{
         width: 100px;
         height: 100px;
+    }
+    .text h1{
+        padding: 10px !important;
+        font-size: 2em;
     }
 }

@@ -294,7 +294,7 @@ function Placed() {
     </div>
     <div className="placed">
       <div className="row">
-      <div className="col-12 col-md-12 col-lg-6">
+      <div className="col-12 col-md-12 col-lg-6 mb-3">
         <div className=" certificate-text">
          <div>
           <h1 className="c-header">Our Students Working At Top MNC companies.</h1>
