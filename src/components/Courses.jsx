@@ -6,7 +6,7 @@ function Courses() {
   return (
     <section className='courses container'>
         <div className="courses-header text-center p-5">
-            <h1>We Providing <span className='text-bg-dark p-1 rounded-2 fs-3'>Courses</span></h1>
+            <h1>We Providing <span className=' p-1 rounded-2 fs-3 anim-text'>Courses</span></h1>
         </div>
        <div class="outer_container container">
        

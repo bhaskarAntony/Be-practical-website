@@ -290,7 +290,7 @@ function Placed() {
   return (
     <section>
     <div className="placed-header p-5 text-center bg-white">
-    <span className="fs-1"><span className='text-bg-dark p-1 rounded-2 fs-2'>Placed</span> Our Students</span>
+    <span className="fs-1"><span className=' p-1 rounded-2 fs-2 anim-text'>Placed</span> Our Students</span>
     </div>
     <div className="placed">
       <div className="row">

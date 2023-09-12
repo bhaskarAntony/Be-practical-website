@@ -124,10 +124,10 @@ color: #4b4b4b;
     }
     
 }
-.main-text{
+/* .main-text{
     color:#000000;
     font-weight: 600;
-    }
+    } */
 .header{
         font-size: 3em;
         text-align: center;
@@ -150,6 +150,21 @@ color: #4b4b4b;
         filter: blur(0);
     }
     .pcard:hover .card-header img{
-animation: anim 1s ease-in-out  infinite alternate ;
+        animation: anim 1s ease-out  infinite alternate ;
 
     }
+    .anim-text{
+        padding: 10px 20px !important;
+        display: inline-block;
+        background-color: rgb(21, 54, 43);
+        color: #fff;
+        animation: text-anim-main 1s ease-in-out infinite alternate !important;
+      }
+      @keyframes text-anim-main{
+        from{
+            transform: scale(1.1);
+        }
+        to{
+            transform: scale(0.8);
+        }
+      }

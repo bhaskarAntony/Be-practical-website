@@ -7,7 +7,7 @@ function Placement() {
     <section>
         <div className="elite-header p-5 bg-white">
         <center>
-            <span className="elite-text fs-1"><span className='text-bg-dark p-1 rounded-2 fs-2'>Elite</span> Program</span>
+            <span className="elite-text fs-1"><span className='p-1 rounded-2 fs-2 anim-text'>Elite</span> Program</span>
         </center>
         </div>
     <div class="lottie bg-light">

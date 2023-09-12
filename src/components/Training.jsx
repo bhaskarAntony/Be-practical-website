@@ -6,7 +6,7 @@ function Training() {
   return (
     <section>
     <div className="training-header text-center p-5 bg-white">
-            <h1>Mode Of <span className='text-bg-dark p-1 rounded-2 fs-2'>Training</span></h1>
+            <h1>Mode Of <span className=' p-1 rounded-2 fs-2 anim-text'>Training</span></h1>
         </div>
     <div className='container-fluid training'>
         
