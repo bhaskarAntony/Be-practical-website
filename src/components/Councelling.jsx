@@ -38,12 +38,12 @@ function Councelling() {
   return (
     <section className="container-fluid councellingmain">
         <div className="text-container">
-            <h3 className='header'><span className='rounded-2 fs-3 anim-text'>Training</span> <span className="main-text">process and deployment</span></h3>
+            <h3 className='header'><span className='text-bg-dark p-1 rounded-2 fs-3'>Training</span> <span className="main-text">process and deployment</span></h3>
             <p className='mt-4 fs-5'>The training process in software development involves identifying and addressing knowledge gaps among individuals or teams. It includes structured learning activities, hands-on practice, and assessments to enhance skills and keep up with industry advancements.</p>
         </div>
       <div className="card-container">
         <div className="grid">
-          <div className="card card-first border-0  pcard" style={cardStyles.cardFirst}>
+          <div className="card card-first border-0 rounded-5 pcard" style={cardStyles.cardFirst}>
             <div className="card-header border-0 bg-transparent p-0">
               <img src={bookimage} alt="logo" className="card-img-top" style={{ transition: '0.2s' }} />
             </div>
@@ -53,7 +53,7 @@ function Councelling() {
             </div>
           </div>
 
-          <div className="card card2 border-0 pcard" style={cardStyles.card2}>
+          <div className="card card2 border-0 rounded-5 pcard" style={cardStyles.card2}>
             <div className="card-header  border-0 bg-transparent p-0">
               <img src={taskimage} alt="logo" className="card-img-top" style={{ transition: '0.4s' }} />
             </div>
@@ -63,7 +63,7 @@ function Councelling() {
             </div>
           </div>
 
-          <div className="card card3 border-0  pcard" style={cardStyles.card3}>
+          <div className="card card3 border-0 rounded-5 pcard" style={cardStyles.card3}>
             <div className="card-header  border-0 bg-transparent p-0">
               <img src={devoloper} alt="logo" className="card-img-top" style={{ transition: '0.6s' }} />
             </div>
@@ -73,7 +73,7 @@ function Councelling() {
             </div>
           </div>
 
-          <div className="card card4 border-0  pcard" style={cardStyles.card4}>
+          <div className="card card4 border-0 rounded-5 pcard" style={cardStyles.card4}>
             <div className="card-header  border-0 bg-transparent p-0">
               <img src={rocketimage} alt="logo" className="card-img-top" style={{ transition: '0.8s' }} />
             </div>
@@ -83,7 +83,7 @@ function Councelling() {
             </div>
           </div>
 
-          <div className="card card5 border-0  pcard" style={cardStyles.card5}>
+          <div className="card card5 border-0 rounded-5 pcard" style={cardStyles.card5}>
             <div className="card-header  border-0 bg-transparent p-0">
               <img src={trainerimage} alt="logo" className="card-img-top" />
             </div>
@@ -93,7 +93,7 @@ function Councelling() {
             </div>
           </div>
 
-          <div className="card card6 border-0  pcard" style={cardStyles.card6}>
+          <div className="card card6 border-0 rounded-5 pcard" style={cardStyles.card6}>
             <div className="card-header  border-0 bg-transparent p-0">
               <img src={devolopment} alt="logo" className="card-img-top" style={{ transition: '1s' }} />
             </div>
@@ -103,7 +103,7 @@ function Councelling() {
             </div>
           </div>
 
-          <div className="card card7 border-0  pcard" style={cardStyles.card7}>
+          <div className="card card7 border-0 rounded-5 pcard" style={cardStyles.card7}>
             <div className="card-header border-0 bg-transparent p-0">
               <img src={job} alt="logo" className="card-img-top" style={{ transition: '1s' }} />
             </div>
