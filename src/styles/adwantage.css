@@ -1,0 +1,31 @@
+.adwantage{
+    background-color: #040D12;
+    min-height: 100vh;
+}
+.adwantage-card{
+    min-height:180px;
+    color: #fff;
+    background: transparent;
+    padding: 10px;
+}
+.adwantage-card .card-header{
+    background-color: transparent;
+}
+ .adwantage-card p{
+   font-size: 1.2em;
+   margin-top: 10px;
+   color: #fff;
+}
+.adwantage-card:hover{
+    background-color: #2f3f477c;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.adwantage-card span{
+    font-size: 1.4em;
+    color: #e3e08a;
+}
+.adwantage-card [class*="bi"]{
+    font-size: 3em;
+    
+}

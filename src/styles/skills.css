@@ -1,0 +1,52 @@
+.left video{
+    width: 100%;
+    height: 95vh;
+    object-fit: cover;
+    border-radius: 30px;
+    border: 3px solid #000;
+    background-color: #fff;
+}
+.text-right h1{
+    font-size: 4em;
+}
+@media (max-width:528px){
+    .text-right h1{
+        font-size: 3em;
+    }
+}
+.video video{
+    width: 100%;
+    object-fit: cover;
+    height: 350px;
+    border-radius: 30px;
+    animation: video 1s linear;
+    border: 3px solid #000;
+    cursor: pointer;
+}
+*{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+@media (max-width:768px){
+    .video{
+        min-height: 100%;
+    }
+}
+.video:hover{
+    transform: scale(1.1);
+    transition: 1s all;
+}
+@keyframes video{
+    from{
+        transform: translateY(100px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+.sticky-component {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0; /* Stick the component to the top of the viewport */
+    background-color: white; /* Adjust as needed */
+    /* Other styling properties */
+  }

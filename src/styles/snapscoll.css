@@ -1,0 +1,4 @@
+section {
+    min-height: 100vh; /* Set a fixed height for each section */
+    scroll-snap-align: start; /* Snap to the top of each section */
+  }

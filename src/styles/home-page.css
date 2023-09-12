@@ -1,0 +1,17 @@
+/* /.homepage {
+    scroll-behavior: smooth;
+    overflow: hidden;
+    overflow-y: scroll; 
+    height: 100vh; 
+    scroll-snap-type: y mandatory;
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
+    scroll-behavior: smooth;
+  }
+  
+  .homepage::-webkit-scrollbar {
+    display: none; 
+  } */
+  .homepage{
+    background-color: rgb(255, 255, 255);
+  }
