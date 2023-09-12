@@ -1,14 +1,41 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import '../styles/navbar.css';
 
 function Nav() {
+  const [isOpen, setIsOpen] = useState(true);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
+  const menuStyle = {
+    height: isOpen ? 'fit-content' : '0px',
+    transition: '1s',
+  };
+
+  useEffect(() => {
+    // Function to update isOpen state based on screen width
+    const updateMenuOnResize = () => {
+      if (window.innerWidth <= 558) {
+        setIsOpen(false);
+      }
+    };
+
+    // Attach the event listener for window resize
+    window.addEventListener('resize', updateMenuOnResize);
+
+    // Clean up the event listener on component unmount
+    return () => {
+      window.removeEventListener('resize', updateMenuOnResize);
+    };
+  }, []);
   return (
     // <div className="home-main">
       <header>
         <div className="logo">
           <img src="https://be-practical.com/images/Be-logo.png" alt="" />
         </div>
-        <div className="right">
+        <div className="right" id="navbar" style={menuStyle}>
           <div className="mynavbar">
             <a href="#home" className="an">Home</a>
             <div className="mega-drop">
@@ -77,6 +104,7 @@ function Nav() {
             </div>
           </div>
         </div>
+        <i class="bi bi-list" id="toggler" onClick={toggleMenu}></i>
       </header>
     // </div>
   );

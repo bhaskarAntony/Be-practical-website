@@ -103,52 +103,7 @@ header img{
     overflow: hidden;
 
 }
-@media (max-width:528px){
-    .content{
-        position: inherit;
-        min-width: 100%;
-        border-radius: 10px;
-        min-height: fit-content;
-        overflow: auto;
-    }
-    .rows{
-        min-width: 100%;
-        min-height: fit-content;
-    }
-    .mega-drop:hover .content {
-        /* display: block; */
-        /* min-height: 300px; */
-        max-height: fit-content;
-        transition: 0.5s ease-out;
-        min-width: 100%;
-    }
-    .mega-drop{
-        float: left;
-        text-align: left;
-    }
-    .an{
-        min-width: 100%;
-        text-align: left;
-        float: left;
-        display: flex;
-        justify-content: start;
-        
-    }
-    .an:hover{
-        background: white;
-        color: #000;
-    }
-    .mynavbar{
-        display: flex;
-        flex-direction: column;
-        align-items: start;
-    }
-    .devide{
-        max-height: fit-content;
-        min-width: 100%;
-        min-height: fit-content;
-    }
-}
+
 
 .content .header {
     padding: 16px;
@@ -199,11 +154,93 @@ header img{
     display: table;
     clear: both;
 }
-
+header .bi-list{
+    display: none;
+    color: #fff;
+    font-size: 1.4em;
+}
+header .bi-list:hover{
+    padding: 5px;
+    border: 2px solid #255c5c;
+}
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
     .devide {
         width: 100%;
         height: auto;
+    }
+}
+
+
+/* media  */
+
+@media (max-width:528px){
+    .content{
+        position: inherit;
+        min-width: 100%;
+        border-radius: 10px;
+        min-height: fit-content;
+        overflow: auto;
+    }
+    .rows{
+        min-width: 100%;
+        min-height: fit-content;
+    }
+    .mega-drop:hover .content {
+        /* display: block; */
+        /* min-height: 300px; */
+        max-height: fit-content;
+        transition: 0.5s ease-out;
+        min-width: 100%;
+    }
+    .mega-drop{
+        float: left;
+        text-align: left;
+    }
+    .an{
+        min-width: 100%;
+        text-align: left;
+        float: left;
+        display: flex;
+        justify-content: start;
+        
+    }
+    .an:hover{
+        background: white;
+        color: #000;
+    }
+    .mynavbar{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .devide{
+        max-height: fit-content;
+        min-width: 100%;
+        min-height: fit-content;
+    }
+    header .right{
+        position: absolute;
+        top: 70px;
+        width: 100%;
+        left: 0;
+        background-color: #183D3D;
+        height: 0;
+        z-index: 100;
+    }
+    header img{
+        width: 150px;
+    }
+    header{
+        max-height: 70px;
+    }
+    header .bi-list{
+        display: block !important;
+    }
+    header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
     }
 }
