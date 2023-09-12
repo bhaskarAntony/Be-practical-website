@@ -112,6 +112,7 @@ header img{
     z-index: 100;
     overflow: hidden;
     border-radius: 10px;
+    opacity: 0;
 
 }
 
@@ -126,6 +127,7 @@ header img{
     /* min-height: 300px; */
     height:fit-content ;
     transition: 0.5s ease-out;
+    opacity: 1;
 }
 
 
@@ -172,7 +174,7 @@ header [class*="bi-list"], header [class*="bi-x-lg"]{
 }
 header [class*="bi-list"]:hover, header [class*="bi-x-lg"]:hover{
     padding: 5px;
-    border: 2px solid #255c5c;
+    border: 2px solid #9a76be;
     font-size: 1.4em;
 }
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
@@ -236,7 +238,7 @@ header [class*="bi-list"]:hover, header [class*="bi-x-lg"]:hover{
         top: 70px;
         width: 100%;
         left: 0;
-        background-color: #183D3D;
+        background-color: #6d28d9;
         height: 0;
         z-index: 100;
     }
