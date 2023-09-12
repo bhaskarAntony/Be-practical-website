@@ -64,6 +64,8 @@ animatedItems.forEach((item) => {
             </div>
           </div>
         </div>
+        <div className="home-companies-start text-center text-white">
+          <h3>Trusted by the world's best companies</h3>
         <div className="home-companies">
           <div>
             <ul className="homescroll1">
@@ -116,6 +118,11 @@ animatedItems.forEach((item) => {
               <li><h3>KPSS Kalpar</h3></li>
             </ul>
           </div>
+        </div>
+        </div>
+
+        <div className="divider-line-companies">
+          
         </div>
     </div>
   )
