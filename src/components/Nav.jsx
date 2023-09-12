@@ -32,7 +32,7 @@ function Nav() {
     };
   }, []);
   return (
-    // <div className="home-main">
+    <div>
       <header>
         <div className="logo">
           <img src="https://be-practical.com/images/Be-logo.png" alt="" />
@@ -110,7 +110,10 @@ function Nav() {
           isOpen ? <i class="bi bi-x-lg" id="toggler" onClick={toggleMenu}></i> : <i class="bi bi-list" id="toggler" onClick={toggleMenu}></i>
         }
       </header>
-    // </div>
+      <div className="divider-line">
+
+      </div>
+    </div>
   );
 }
 

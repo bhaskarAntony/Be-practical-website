@@ -2,7 +2,7 @@ import React from 'react'
 import Homedata from './Homedata'; // Import your component
 import '../styles/home.css'
 import Students from './Students';
-
+import Nav from './Nav'
 const data = [
   {
     boldtext:"High Paid Salaries &",
@@ -36,9 +36,13 @@ animatedItems.forEach((item) => {
   item.style.animationDelay = `${getRandomDelay()}ms`;
 });
   return (
-    <div className='home'>
+    <div className='home container-fluid'>
+      <Nav/>
+      <div className="blur">
+
+      </div>
         <div className="row">
-          <div className="col-12 col-md-12 col-lg-6">
+          <div className="col-12 col-md-12 col-lg-7">
             <div className="home-left">
             <div className="home-text mb-3">
               <Homedata items={data} />
@@ -46,9 +50,16 @@ animatedItems.forEach((item) => {
               
             </div>
           </div>
-          <div className="col-12 col-md-12 col-lg-6">
+          <div className="col-12 col-md-12 col-lg-5">
             <div className="home-right">
-               <Students/>
+               {/* <Students/> */}
+               <div className="wave-image">
+
+               </div>
+               <div className="blur2">
+
+              </div>
+               
 
             </div>
           </div>
