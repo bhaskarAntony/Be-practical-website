@@ -101,7 +101,8 @@ header img{
 .content {
     /* display: none; */
     /* min-height: 50vh; */
-    height: 0;
+    /* height: 0; */
+    display: none;
     position: absolute;
     background-color: #ffffff;
     color: #ffffff;
@@ -128,6 +129,7 @@ header img{
     height:fit-content ;
     transition: 0.5s ease-out;
     opacity: 1;
+    display: block;
 }
 
 

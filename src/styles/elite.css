@@ -49,3 +49,8 @@
     right: -10%;
     background: url(https://assets.website-files.com/645b9b6b236ee284a88ce15f/64776c80589640c98d03da6f_hero-header-graphic.svg) center no-repeat;
 }
+@media (max-width:568px){
+    .home-companies  .homescroll1 ul li h3{
+        font-size: 2em;
+    }
+}
