@@ -21,9 +21,9 @@
     border-radius: 20px;
     cursor: pointer;
 }
-.adwantage-card span{
+.adwantage-card h4{
     font-size: 1.4em;
-    color: #e3e08a;
+    color: #b26fe5;
 }
 .adwantage-card [class*="bi"]{
     font-size: 3em;

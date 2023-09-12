@@ -15,7 +15,7 @@ function Adwantage() {
                     <i class="bi bi-mortarboard-fill"></i>
                     </div>
                     <div className="card-body">
-                        <span className="fs 2">FREE DEMO CLASSES</span>
+                        <h4 className="fs 2">FREE DEMO CLASSES</h4>
                         <p>Before enrolling, a free DEMO lesson is provided.</p>
                     </div>
                 </div>
@@ -26,7 +26,7 @@ function Adwantage() {
                     <i class="bi bi-building-fill-check"></i>
                     </div>
                     <div className="card-body">
-                        <span className="fs 2">JOB ORIENTED COURSES</span>
+                        <h4 className="fs 2">JOB ORIENTED COURSES</h4>
                         <p>Be Practical offers career-focused training with hand-picked job oriented courses in Bangalore.</p>
                     </div>
                 </div>
@@ -37,7 +37,7 @@ function Adwantage() {
                     <i class="bi bi-camera-video-fill"></i>
                     </div>
                     <div className="card-body">
-                        <span className="fs 2">BACKUP CLASSES</span>
+                        <h4 className="fs 2">BACKUP CLASSES</h4>
                         <p>Missed classes are covered by backup classes</p>
                     </div>
                 </div>
@@ -48,7 +48,7 @@ function Adwantage() {
                     <i class="bi bi-laptop"></i>
                     </div>
                     <div className="card-body">
-                        <span className="fs 2">FREE TECHNICAL SUPPORT</span>
+                        <h4 className="fs 2">FREE TECHNICAL SUPPORT</h4>
                         <p>Connect to technical discussion boards for project help.</p>
                     </div>
                 </div>
@@ -59,7 +59,7 @@ function Adwantage() {
                     <i class="bi bi-calendar3"></i>
                     </div>
                     <div className="card-body">
-                        <span className="fs 2">REAL TIME PROJECTS</span>
+                        <h4 className="fs 2">REAL TIME PROJECTS</h4>
                         <p>Gain world-class exposure with our real-time projects</p>
                     </div>
                 </div>
@@ -70,7 +70,7 @@ function Adwantage() {
                     <i class="bi bi-person-check-fill"></i>
                     </div>
                     <div className="card-body">
-                        <span className="fs 2">FREE HR SESSIONS</span>
+                        <h4 className="fs 2">FREE HR SESSIONS</h4>
                         <p>Before you join, you receive a complimentary HR session.</p>
                     </div>
                 </div>
@@ -82,7 +82,7 @@ function Adwantage() {
                     <i class="bi bi-journals"></i>
                     </div>
                     <div className="card-body">
-                        <span className="fs 2">INTERVIEW TIPS</span>
+                        <h4 className="fs 2">INTERVIEW TIPS</h4>
                         <p>Our HR Team Provides you with Interview Tips</p>
                     </div>
                 </div>
@@ -93,7 +93,7 @@ function Adwantage() {
                     <i class="bi bi-person-hearts"></i>
                     </div>
                     <div className="card-body">
-                        <span className="fs 2">DEDICATED HR</span>
+                        <h4 className="fs 2">DEDICATED HR</h4>
                         <p>Dedicated HR to take care of interviews & Job.</p>
                     </div>
                 </div>
@@ -104,7 +104,7 @@ function Adwantage() {
                     <i class="bi bi-person-video3"></i>
                     </div>
                     <div className="card-body">
-                        <span className="fs 2">DEDICATED TRAINERS</span>
+                        <h4 className="fs 2">DEDICATED TRAINERS</h4>
                         <p>Dedicated & experienced trainers in Be Practical</p>
                     </div>
                 </div>
