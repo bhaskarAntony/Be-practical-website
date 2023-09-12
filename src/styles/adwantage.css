@@ -3,10 +3,11 @@
     min-height: 100vh;
 }
 .adwantage-card{
-    min-height:180px;
+    min-height:250px;
     color: #fff;
     background: transparent;
     padding: 10px;
+    text-align: center;
 }
 .adwantage-card .card-header{
     background-color: transparent;
