@@ -245,9 +245,10 @@
         padding: 2px;
         font-size: 1em;
     }
-    /* .home-right{
-        display: none;
-    } */
+    .home-right{
+       min-height: fit-content !important;
+       height: fit-content;
+    }
     .home{
         padding: 10px;
     }
