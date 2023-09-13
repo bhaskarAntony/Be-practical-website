@@ -25,7 +25,7 @@ return (
                         <div className="dropdown-menu mega-dropdown" aria-labelledby="navbarDropdown">
                             <div className="container">
                                 <div className="row">
-                                    <div className="col-lg-3 col-md-6">
+                                    <div className="col-lg-4 col-md-6">
                                     <span className="fs-5">FullStack Devolopment</span>
                                         <ul>
                                             <li><a href="">MERN FullStack</a></li>
@@ -35,14 +35,14 @@ return (
                                             
                                         </ul>
                                     </div>
-                                    <div className="col-lg-3 col-md-6">
+                                    <div className="col-lg-4 col-md-6">
                                     <span className="fs-5">Cloud Computing</span>
                                         <ul>
                                             <li><a href="">Adwance Cloud Computing</a></li>
                                             <li><a href="">DevOps</a></li>
                                         </ul>
                                     </div>
-                                    <div className="col-lg-3 col-md-6">
+                                    <div className="col-lg-4 col-md-6">
                                     <span className="fs-5">Other Courses</span>
                                         <ul>
                                             <li><a href="">Data Science</a></li>
@@ -64,7 +64,7 @@ return (
                         <div className="dropdown-menu dropdown" aria-labelledby="navbarDropdown">
                             <div className="container">
                                 <div className="row">
-                                    <div className="col-lg-3 col-md-6">
+                                    <div className="col-lg-4 col-md-6">
                                     <span className="fs-5">FullStack Devolopment</span>
                                         <ul>
                                             <li><a href="">MERN FullStack</a></li>
@@ -95,7 +95,7 @@ return (
                         <div className="dropdown-menu dropdown" aria-labelledby="navbarDropdown">
                             <div className="container">
                                 <div className="row">
-                                    <div className="col-lg-3 col-md-6">
+                                    <div className="col-lg-12 col-md-12">
                                     <span className="fs-5">All Thing You to Get Job</span>
                                         <ul>
                                             <li><a href="">Corporate Trainig</a></li>

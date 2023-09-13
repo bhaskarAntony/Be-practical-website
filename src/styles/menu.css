@@ -35,6 +35,8 @@
 }
 .dropdown ul{
     margin-top: 20px;
+    list-style: none;
+    margin-left: 0;
 }
 .dropdown ul li{
     padding: 10px;

@@ -47,6 +47,11 @@
    
 
 }
+.home-right img{
+    min-width: 100%;
+    /* height: 100vh; */
+    /* border-radius: 20px; */
+}
 
 .students{
     position: absolute; /* Establish a positioning context */
