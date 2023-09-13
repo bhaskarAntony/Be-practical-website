@@ -180,13 +180,13 @@
     overflow: hidden;
     position: absolute;
     height: 92%;
-    width: 0%;
+    width: 97%;
     left: 8px;
     border-radius: 0px 10px 10px 0px;
     top: 8px;
     background-color: #59ec94;
     border-radius: 10px;
-    animation: battery-charge 4s linear infinite;
+    animation: battery-charge 4s linear;
     /* animation-delay: 2s; */
 }
 *{

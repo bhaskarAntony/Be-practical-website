@@ -6,6 +6,7 @@
     border: 3px solid #000;
     background-color: #fff;
     padding: 5px;
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px; */
 }
 @media(max-width:768px){
     /* .left{
@@ -65,8 +66,9 @@
     height: 350px;
     border-radius: 30px;
     animation: video 1s linear;
-    border: 3px solid #000;
+    /* border: 3px solid #000; */
     cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
 }
 *{
     font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;

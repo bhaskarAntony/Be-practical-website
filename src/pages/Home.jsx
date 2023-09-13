@@ -18,12 +18,12 @@ function Home() {
     <div className='homepage'>
       <Header/>
       <Elite/>
+      <Courses/>
       <Councelling/>
       <Companies/>
       <Skills/>
       <Training/>
       <Adwantage/>
-      <Courses/>
       <Placed/>
       <Footer/>
     </div>
