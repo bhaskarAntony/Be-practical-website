@@ -19,7 +19,7 @@
 .navbar .nav-link:hover{
     background-color: #fff;
     color: blueviolet;
-    border-radius: 5px;
+    transition: 0.5s;
 }
 .navbar .nav-item .active{
     color: rgb(242, 193, 255) !important;
