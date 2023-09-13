@@ -53,7 +53,20 @@ animatedItems.forEach((item) => {
           </div>
           <div className="col-12 col-md-12 col-lg-5">
             <div className="home-right">
-               {/* <Students/> */}
+               <div className="grid-home-image">
+                <div className="grid-item-home">
+                  <img src="https://images.pexels.com/photos/5483063/pexels-photo-5483063.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
+                </div>
+                <div className="grid-item-home">
+                  <img src="https://images.pexels.com/photos/5483063/pexels-photo-5483063.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
+                </div>
+                <div className="grid-item-home">
+                  <img src="https://images.pexels.com/photos/5483063/pexels-photo-5483063.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
+                </div>
+                <div className="grid-item-home">
+                  <img src="https://images.pexels.com/photos/5483063/pexels-photo-5483063.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
+                </div>
+               </div>
                <div className="wave-image">
 
                </div>

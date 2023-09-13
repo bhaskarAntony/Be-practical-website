@@ -112,6 +112,7 @@ return (
             </div>
         </div>
     </nav>
+    <div className="divider-line"></div>
 </div>
 );
 }

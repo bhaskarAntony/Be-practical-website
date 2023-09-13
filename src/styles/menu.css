@@ -16,15 +16,21 @@
     color: #fff;
     font-size: 1.2em;
 }
+.navbar .nav-link:hover{
+    background-color: #fff;
+    color: blueviolet;
+    border-radius: 5px;
+}
 .navbar .nav-item .active{
-    color: aqua !important;
+    color: rgb(242, 193, 255) !important;
 }
 .navbar-brand img{
     width: 200px;
 }
 .mynavbar{
+    width: 100%;
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: end;
 }
 .dropdown ul{
@@ -34,9 +40,40 @@
     padding: 10px;
 }
 .dropdown ul li a{
+    min-width: 100%;
     text-decoration: none;
-    padding: 10px;
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
 }
+.dropdown ul li a:hover{
+    background-color: #fff;
+    color: #4c1d95;
+}
+.dropdown span{
+    color: #fff;
+    position: relative;
+}
+.dropdown span::after{
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 3px;
+    background: #fff;
+    left: 0;
+    bottom: -10px;
+    border-radius: 10px;
+}
+.divider-line {
+    height: 1px;
+    opacity: .32;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), #fff 50%, rgba(255, 255, 255, 0));
+    padding-right: 0;
+}
+.dropdown-menu{
+    background-image: linear-gradient(#4c1d95, #2e1065) !important;
+    ;
+}
+
 
 @media (max-width:528px){
     .navbar-brand img{
@@ -45,4 +82,22 @@
     .nav-item{
         margin-left: 0px;
     }
+    .mynavbar{
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .navbar-collapse{
+        align-items:start !important;
+    }
+    .dropdown-menu{
+        min-width: 100% !important;
+    }
+    .navbar .dropdown-menu {
+        left: 0;
+        min-width: 100%;
+    }
+    .home{
+        padding: 0 !important;
+    }
+    
 }
