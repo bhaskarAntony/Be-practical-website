@@ -92,7 +92,7 @@ function Companies() {
   return (
     <section className="container-fluid cmain p-0">
          <div className="text">
-            <span className='fs-1'>Our <span className='rounded-2 fs-3 anim-text'>Students</span> Working at</span>
+            <span className='fs-1'>Our <span className='fs-3 anim-text'>Students</span> Working at</span>
         </div>
         <div className="inner rounded-0">
        
