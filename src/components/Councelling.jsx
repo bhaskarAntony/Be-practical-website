@@ -38,8 +38,8 @@ function Councelling() {
   return (
     <section className="container-fluid councellingmain">
         <div className="text-container">
-            <h3 className='header'><span className='text-bg-dark p-1 rounded-2 fs-3'>Training</span> <span className="main-text">process and deployment</span></h3>
-            <p className='mt-4 fs-5'>The training process in software development involves identifying and addressing knowledge gaps among individuals or teams. It includes structured learning activities, hands-on practice, and assessments to enhance skills and keep up with industry advancements.</p>
+            <h3 className='header'><span className='text-bg-dark p-1 rounded-2'>Training</span> <span className="main-text">process and deployment</span></h3>
+            <p className='mt-4'>The training process in software development involves identifying and addressing knowledge gaps among individuals or teams. It includes structured learning activities, hands-on practice, and assessments to enhance skills and keep up with industry advancements.</p>
         </div>
       <div className="card-container">
         <div className="grid">

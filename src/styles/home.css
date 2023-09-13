@@ -7,6 +7,7 @@
 }
 .home{
     min-height: 100vh;
+    position: relative;
     overflow: hidden;
     background-image: linear-gradient(#4c1d95, #2e1065);
 }
@@ -73,7 +74,7 @@
       transform: scale(10);
     }
   }
-.home-left button {
+.home-left button, .col-btn button {
     grid-column-gap: 6px;
     color: #fff;
     text-align: center;
@@ -86,6 +87,7 @@
     font-weight: 600;
     text-decoration: none;
     transition: background-color .2s;
+    border: 2px solid transparent;
     display: flex;
     box-shadow: 0 1px 2px rgba(16, 24, 40, .05);
 }
@@ -225,6 +227,39 @@
         transform: translateX(-200%);
     }
 }
+
+/* register  */
+.register{
+    width: 100%;
+    padding: 20px 10px !important;
+}
+.col-btn{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+}
+.register .card input, .register .card select{
+    width: 100%;
+    padding: 10px !important;
+    border-radius: 0;
+}
+.register .col-btn button{
+    width: 100%;
+    padding: 15px;
+    margin-top: 25px;
+}
+.form-label{
+    color: #4c1d95;
+}
+.from-group{
+    margin-bottom: 2px;
+}
+.register .card input:focus, .register .card select:focus{
+    box-shadow: none;
+    border: 2px solid #6609f1;
+}
  /* media */
 @media (max-width:528px){
     .home-left{
@@ -263,5 +298,16 @@
         font-size: 1em;
         padding: 10px 5px;
         width: 100%;
+    }
+}
+@media (max-width:998px){
+    .home-left{
+        max-height: fit-content;
+        min-height: fit-content;
+    }
+    .carousel-box{
+        max-height: fit-content;
+        height: fit-content;
+        min-height: fit-content;
     }
 }

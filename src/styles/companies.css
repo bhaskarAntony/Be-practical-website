@@ -4,7 +4,6 @@
 }
 .cmain{
     padding: 2% 10px;
-    min-height: 100vh;
     min-width: 100%;
     max-width: 100%;
     background-color: #fff;
@@ -118,7 +117,7 @@
     background: #f1f6ff;
     border-radius: 20px;
 }
-@media (max-width:528px){
+@media (max-width:998px){
     .company{
         width: 100px;
         height: 100px;

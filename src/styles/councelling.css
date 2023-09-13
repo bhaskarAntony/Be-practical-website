@@ -23,7 +23,7 @@ padding: 10px;
 }
 .pcard{
 padding: 20px;
-max-height: 300px;
+min-height: 300px;
 border: 0;
 background: var(--color);
 font-size: 1.2em;
@@ -32,6 +32,7 @@ box-shadow: 0px 0px 10px #DFCCFB;
 position: relative;
 overflow: hidden;
 }
+
 .card-header{
 background-color: transparent;
 border: none;
@@ -115,7 +116,7 @@ color: #4b4b4b;
 .pcard:hover{
     opacity: 1;
 }
-@media (max-width:768px){
+@media (max-width:528px){
     .grid{
         grid-template-columns: repeat(1, 1fr);
     }
@@ -123,6 +124,21 @@ color: #4b4b4b;
         max-height: fit-content;
     }
     
+}
+@media (max-width:998px){
+    .grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .card-first{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        max-height: none;
+    }
+    .header{
+        font-size: 2em;
+    }
 }
 /* .main-text{
     color:#000000;
@@ -171,10 +187,10 @@ color: #4b4b4b;
 
       @media (max-width:528px){
         .header{
-            font-size: 2em;
+            font-size: 3em;
         }
         .text-container p{
-            font-size: 1em;
+            font-size: 0.8em;
         }
         .pcard img{
             width: 60px;
