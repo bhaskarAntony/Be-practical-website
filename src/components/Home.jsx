@@ -3,6 +3,7 @@ import Homedata from './Homedata'; // Import your component
 import '../styles/home.css'
 import Students from './Students';
 import Nav from './Nav'
+import Menu from './Menu';
 const data = [
   {
     boldtext:"High Paid Salaries &",
@@ -37,7 +38,7 @@ animatedItems.forEach((item) => {
 });
   return (
     <div className='home container-fluid'>
-      <Nav/>
+      <Menu/>
       <div className="blur">
 
       </div>
