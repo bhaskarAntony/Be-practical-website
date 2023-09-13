@@ -33,7 +33,7 @@
     margin: 40px;
     grid-auto-flow: dense;
     grid-gap:25px;
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
     padding: 20px;
     border-radius: 30px;
 
@@ -41,34 +41,53 @@
 .card_container{
     min-height:250px;
     display: flex;
-    border-radius: 30px;
+    border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px #d6fff1;
     background-color: #fff;
     color: #282828;
     position: relative;
-    box-shadow: 
+    /* box-shadow: 
     -10px -10px 15px rgba(255, 255, 255, 0.5),
-    10px 10px 15px rgba(70, 70, 70, 0.12);
+    10px 10px 15px rgba(70, 70, 70, 0.12); */
+    /* box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3); */
+    box-shadow: -6px -6px 10px rgba(255,255,255,0.45), 6px 6px 10px rgba(94,104,121,0.3);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+
 }
-.card_container:hover{
+/* .card_container:hover{
     transform: scale(0.9);
     transition: 0.5s;
     border-bottom: 5px solid #000000;
     cursor: pointer;
 
-}
+} */
 .card_container::before{
     content: "";
     position: absolute;
     width: 100%;
     height: 100%;
     left: -40%;
-    top: -60%;
-    /* background-color: #c899fb9e; */
+    top: -70%;
+    background-color: rgba(160, 112, 215, 0.62);
     border-radius: 100%;
     /* filter: blur(90px); */
 
+}
+.card_container:hover::before{
+    filter: blur(100px);
+    background-color: #880cd0;
+    transition: 1s;
+    left: 0;
+    top: 0;
+    /* border-radius: 0; */
+    transform: scale(2);
+    cursor: pointer;
+
+}
+.card_container:hover{
+    color: #fff;
+    cursor: pointer;
 }
 .left_card{
     width: 80px;
@@ -103,17 +122,12 @@
     .card_container{
         flex-direction: column;
     }
-    .right_card, .left_card{
+    .right_card{
         min-width: 100%;
     }
-    .left_card{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
     .left_card img{
-        max-width: 50%;
-        max-height: 50%;
+        height: 40px !important;
+        width: 40px !important;
     }
     .big-card-text{
         font-size: 2em;
@@ -134,7 +148,7 @@
     border: none;
     color: rgb(25, 27, 27);
     /* background: linear-gradient(rgb(197, 230, 227),rgb(211, 130, 211)); */
-    background: #393E46;
+    background: #6e199f;
     color: #fff;
     font-size: 15px;
     transform: skew(-10deg);
@@ -165,9 +179,20 @@
     background-size: cover;
     background-color: #fff;
 }
+.last:hover{
+    background: url(https://blog-cdn.crowdcontent.com/crowdblog/Website-Design-Gif.gif) no-repeat center;
+    background-size: cover;
+}
+.big-card:hover{
+    background: url(https://media2.giphy.com/media/nFMnlDJB8pJ82sfnnW/giphy.gif) no-repeat center;
+    background-size: cover;
+}
 /* .big-card .left_card, .right_card{
     background-color: transparent;
 } */
+.big-card::before, .last::before{
+    display: none;
+}
 
 
 
