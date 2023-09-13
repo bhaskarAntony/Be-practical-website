@@ -1,6 +1,5 @@
 import React from 'react';
 import '../styles/snapscoll.css'
-import 'animate.css/animate.min.css'; // Import Animate.css styles
 import '../styles/councelling.css';
 import  bookimage from '../images/book.webp'
 import taskimage from '../images/task-time-8571374-6805197.webp'
@@ -44,7 +43,7 @@ function Councelling() {
         </div>
       <div className="card-container">
         <div className="grid">
-          <div className="card card-first border-0 rounded-5 pcard animate__fadeIn" style={cardStyles.cardFirst}>
+          <div className="card card-first border-0 rounded-5 pcard" style={cardStyles.cardFirst}>
             <div className="card-header border-0 bg-transparent p-0">
               <img src={bookimage} alt="logo" className="card-img-top" style={{ transition: '0.2s' }} />
             </div>
@@ -54,7 +53,7 @@ function Councelling() {
             </div>
           </div>
 
-          <div className="card card2 border-0 rounded-5 pcard animate__fadeIn" style={cardStyles.card2}>
+          <div className="card card2 border-0 rounded-5 pcard" style={cardStyles.card2}>
             <div className="card-header  border-0 bg-transparent p-0">
               <img src={taskimage} alt="logo" className="card-img-top" style={{ transition: '0.4s' }} />
             </div>
@@ -64,7 +63,7 @@ function Councelling() {
             </div>
           </div>
 
-          <div className="card card3 border-0 rounded-5 pcard animate__fadeIn" style={cardStyles.card3}>
+          <div className="card card3 border-0 rounded-5 pcard" style={cardStyles.card3}>
             <div className="card-header  border-0 bg-transparent p-0">
               <img src={devoloper} alt="logo" className="card-img-top" style={{ transition: '0.6s' }} />
             </div>
@@ -74,7 +73,7 @@ function Councelling() {
             </div>
           </div>
 
-          <div className="card card4 border-0 rounded-5 pcard animate__fadeIn" style={cardStyles.card4}>
+          <div className="card card4 border-0 rounded-5 pcard" style={cardStyles.card4}>
             <div className="card-header  border-0 bg-transparent p-0">
               <img src={rocketimage} alt="logo" className="card-img-top" style={{ transition: '0.8s' }} />
             </div>
@@ -84,7 +83,7 @@ function Councelling() {
             </div>
           </div>
 
-          <div className="card card5 border-0 rounded-5 pcard animate__fadeIn" style={cardStyles.card5}>
+          <div className="card card5 border-0 rounded-5 pcard" style={cardStyles.card5}>
             <div className="card-header  border-0 bg-transparent p-0">
               <img src={trainerimage} alt="logo" className="card-img-top" />
             </div>
@@ -94,7 +93,7 @@ function Councelling() {
             </div>
           </div>
 
-          <div className="card card6 border-0 rounded-5 pcard animate__fadeIn" style={cardStyles.card6}>
+          <div className="card card6 border-0 rounded-5 pcard" style={cardStyles.card6}>
             <div className="card-header  border-0 bg-transparent p-0">
               <img src={devolopment} alt="logo" className="card-img-top" style={{ transition: '1s' }} />
             </div>
@@ -104,7 +103,7 @@ function Councelling() {
             </div>
           </div>
 
-          <div className="card card7 border-0 rounded-5 pcard animate__fadeIn" style={cardStyles.card7}>
+          <div className="card card7 border-0 rounded-5 pcard" style={cardStyles.card7}>
             <div className="card-header border-0 bg-transparent p-0">
               <img src={job} alt="logo" className="card-img-top" style={{ transition: '1s' }} />
             </div>
