@@ -105,6 +105,7 @@
     grid-row-start: 3;
     width: 100%;
     grid-row-end: 6;
+    color: #fff;
 }
 .course-right .course-card:nth-child(4){
     grid-column-start: 1;

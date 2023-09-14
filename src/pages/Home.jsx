@@ -24,8 +24,9 @@ function Home() {
       <Header/>
       <Elite/>
       {/* <Courses/> */}
-      <Course/>
       <Councelling/>
+      <Course/>
+
       <Companies/>
       <Skills/>
       <Training/>

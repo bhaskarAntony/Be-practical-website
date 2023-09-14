@@ -50,8 +50,8 @@ function Course() {
                   <h3 className='course-name'>Digital marketing</h3>
                   Be-practicle digital marketing course in banglire offer comparehensive curriculam,practical projects nad flexible learning options
                 </div>
-                 <div className="course-card">
-                  <h3>Cloud Computing</h3>
+                 <div className="course-card" data-aos="zoom-in-up">
+                  <h3 className='course-name'>Cloud Computing</h3>
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus, blanditiis libero pariatur enim praesentium 
                 </div>
                 {/*<div className="course-card">
