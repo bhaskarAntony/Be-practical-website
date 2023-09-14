@@ -90,12 +90,13 @@ function Companies() {
   ]
 
   return (
-    <section className="container-fluid cmain p-0">
-         <div className="text">
-           
-        </div>
-        <div className="inner rounded-0 text-center p-3">
+    <section className="container-fluid cmain">
+         
+        <div className="inner rounded-0 text-center">
+        <div className="text">
         <span className='fs-3 text-center'>Our Students Working at</span>
+           
+           </div>
         <div className="company-list1">
             <div className="scroll1">
             {companies1.map((company, index) => (

@@ -3,17 +3,20 @@
     font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 .cmain{
-    padding: 2% 10px;
+    /* padding: 2% 10px; */
     min-width: 100%;
     max-width: 100%;
     background-color: rgb(16, 17, 20);
+    color: #fff;
+    height: fit-content;
 
 }
 
 .company-list1, .company-list2{
     display: flex;
-    padding: 20px;
     overflow: hidden;
+    min-height: 200px;
+    padding: 0 20px;
 }
 .company{
     width: 230px;
@@ -26,6 +29,7 @@
     /* transform: skew(10deg); */
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
     border-radius: 10px;
+    border: 2px solid #fff;
 }
 .company img{
     width: 100%;
@@ -39,9 +43,6 @@
     gap: 10px;
     animation: anim1 40s linear infinite;
     animation-delay: -40s;
-}
-.scroll1 .company:nth-child(1){
-    margin-left: 55px;
 }
 @keyframes anim1{
     0%{
@@ -91,12 +92,8 @@
 .text{
     text-align: center;
     font-family: 'Libre Franklin', sans-serif;
-}
-.text h2{
-    animation: text 1s linear;
-    font-size: 3em;
-    letter-spacing: 1.5px;
-    word-spacing: 4px;
+    color: #fff;
+    padding:  30px 10px;
 }
 /* .company-list1:hover .company, .company-list2:hover .company{
     filter: blur(5px);

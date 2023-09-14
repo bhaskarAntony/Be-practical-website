@@ -92,6 +92,7 @@ color: #4b4b4b;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     padding: 20px;
+    border: 2px solid #fff;
     background-color: rgb(16, 17, 20);
     border-radius: 20px;
 }

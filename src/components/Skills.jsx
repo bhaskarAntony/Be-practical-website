@@ -18,8 +18,8 @@ function Skills() {
   return (
     <section className=' skillsmain overflow-hidden'>
       <div className=" skillsecond">
-      <div className="blur"></div>
-        <div className="blur2"></div>
+      {/* <div className="section-blur"></div>
+        <div className="section-blur2"></div> */}
         <div className="row">
           <div className="col-12 col-md-12 col-lg-6">
             <div className="left col-12 col-md-12 col-lg-10">
