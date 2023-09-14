@@ -125,5 +125,6 @@
     }
     .course-left{
         min-height: fit-content;
+        padding: 3%;
     }
 }
