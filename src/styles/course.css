@@ -6,9 +6,10 @@
 .course-big-text{
     font-size: 3.5rem;
     font-weight: 600;
+    line-height: 1.4;
 }
 .course-info-text{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 .course-left{
     min-height:80vh;
@@ -16,6 +17,7 @@
     flex-direction: column;
    justify-content: center;
    align-items: flex-start;
+   padding-left:5% ;
 }
 .course-card-curve{
     position: absolute;
@@ -25,6 +27,9 @@
     border-radius: 100%;
     bottom: -30%;
     left: 0;
+    z-index: -1;
+    border: 2px solid #fff;
+
 }
 .course-join{
     border: none;
@@ -33,7 +38,7 @@
     color: #fff;
     font-size: 1.5rem;
     border-radius: 100px !important;
-    padding: 15px;
+    padding: 0.9rem;
     width: 200px;
 }
 .course-right{
@@ -47,6 +52,7 @@
     border-radius: 20px;
     position: relative;
     overflow: hidden;
+    z-index: 2;
     
 }
 .course-card:nth-child(1){
@@ -57,8 +63,10 @@
 .course-card .course-icon{
     padding: 10px;
     background-color: rgb(16, 17, 20);
-    border-radius: 10px;
-    height: 100px;
+    border-radius: 100px;
+    border: 2px solid #fff;
+    height: 80px;
+    width: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -111,5 +119,8 @@
     }
     .course-card{
         width: 100%;
+    }
+    .course-big-text{
+        font-size: 2rem;
     }
 }
