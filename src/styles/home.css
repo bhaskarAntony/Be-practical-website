@@ -11,6 +11,16 @@
     overflow: hidden;
     background-image: linear-gradient(#4c1d95, #2e1065);
 }
+.carousel {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    transition: transform 0.5s ease-in-out;
+  }
+  .carousel-item {
+    flex: 0 0 100%; /* Set the width of each item */
+    margin-right: 1rem; /* Add space between items */
+  }
 *{
     font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }

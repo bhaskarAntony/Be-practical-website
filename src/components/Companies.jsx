@@ -92,10 +92,10 @@ function Companies() {
   return (
     <section className="container-fluid cmain p-0">
          <div className="text">
-            <span className='fs-1'>Our <span className='fs-3 anim-text'>Students</span> Working at</span>
+           
         </div>
-        <div className="inner rounded-0">
-       
+        <div className="inner rounded-0 text-center p-3">
+        <span className='fs-3 text-center'>Our Students Working at</span>
         <div className="company-list1">
             <div className="scroll1">
             {companies1.map((company, index) => (
@@ -106,22 +106,6 @@ function Companies() {
             </div>
             <div className="scroll2">
             {companies2.map((company, index) => (
-              <div key={index} className="company">
-                <img src={company.image} alt="" />
-              </div>
-            ))}
-            </div>
-          </div>
-          <div className="company-list2">
-            <div className="scroll1">
-            {companies2.map((company, index) => (
-              <div key={index} className="company">
-                <img src={company.image} alt="" />
-              </div>
-            ))}
-            </div>
-            <div className="scroll2">
-            {companies1.map((company, index) => (
               <div key={index} className="company">
                 <img src={company.image} alt="" />
               </div>

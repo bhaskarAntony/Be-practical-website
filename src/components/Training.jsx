@@ -67,7 +67,7 @@ function Training() {
                 </div>
             </div>
         </div>
-        <div className="col-12 col-sm-12 col-md-6 col-lg-3 mb-3" data-aos="flip-up">
+        <div className="col-12 col-sm-12 col-md-6 col-lg-3 mb-3"  data-aos="fade-down-left">
             <div className="card border-0 train-card rounded-5 mb-3">
                 <div className="card-header border-0 bg-transparent">
                 <i class="bi bi-laptop"></i>
@@ -78,7 +78,7 @@ function Training() {
                 </div>
             </div>
         </div>
-         <div className="col-12 col-sm-12 col-md-6 col-lg-3 mb-3" data-aos="flip-up">
+         <div className="col-12 col-sm-12 col-md-6 col-lg-3 mb-3" data-aos="fade-down-left">
             <div className="card border-0 train-card rounded-5 mb-3">
                 <div className="card-header border-0 bg-transparent">
                 <i class="bi bi-building-check"></i>

@@ -75,7 +75,7 @@
 
 }
 .card_container:hover::before{
-    filter: blur(100px);
+    filter: blur(40px);
     background-color: #880cd0;
     transition: 1s;
     left: 0;
@@ -88,6 +88,9 @@
 .card_container:hover{
     color: #fff;
     cursor: pointer;
+}
+.card_container:hover h2{
+    color: #fff;
 }
 .course-card-btn{
     display: none;
