@@ -4,6 +4,8 @@ import '../styles/adwantage.css'
 function Adwantage() {
   return (
     <section className='adwantage container-fluid'>
+        <div className="blur"></div>
+        <div className="blur1"></div>
         <div className="adwantage-header p-5 text-center text-white">
             <h1>TRAINING ADVANTAGE @ BE-PRACTICAL</h1>
         </div>

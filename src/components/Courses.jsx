@@ -31,6 +31,9 @@ function Courses() {
                        <button class="btn1"><b>Visit Chapters <i class="bi bi-arrow-right-circle-fill"></i></b></button>
                    </div>
                    <p>explore be-practical's data scince course in banglore,offering practical projects and flexible learning.unlock career opportunities </p>
+                   <div className="course-card-btn">
+                    <button className='btn'>Join Now</button>
+                   </div>
    
                </div>
            </div>
@@ -46,6 +49,9 @@ function Courses() {
                        <button class="btn1"><b>Visit Chapters <i class="bi bi-arrow-right-circle-fill"></i></b></button>
                    </div>
                    <p> Be pacricle is software training institute in banglore that provide programs for people looking for cloud computing training </p>
+                   <div className="course-card-btn">
+                    <button className='btn'>Join Now</button>
+                   </div>
    
                </div>
            </div>
@@ -61,6 +67,9 @@ function Courses() {
                        <button class="btn1"><b>Visit Chapters <i class="bi bi-arrow-right-circle-fill"></i></b></button>
                    </div>
                    <p>be-practical provides software testing course in banglore tauch by industry experianced trainers</p>
+                   <div className="course-card-btn">
+                    <button className='btn'>Join Now</button>
+                   </div>
    
                </div>
            </div>
@@ -76,6 +85,9 @@ function Courses() {
                        <button class="btn1"><b>Visit Chapters <i class="bi bi-arrow-right-circle-fill"></i></b></button>
                    </div>
                    <p>Be-practicle digital marketing course in banglire offer comparehensive curriculam,practical projects nad flexible learning options</p>
+                   <div className="course-card-btn">
+                    <button className='btn'>Join Now</button>
+                   </div>
    
                </div>
            </div>
@@ -90,6 +102,9 @@ function Courses() {
                        <button class="btn1"><b>Visit Chapters <i class="bi bi-arrow-right-circle-fill"></i></b></button>
                    </div>
                    <p>weprovide full stack develoment course in bang;ore with placement assistance and flexible payment option</p>
+                   <div className="course-card-btn">
+                    <button className='btn'>Join Now</button>
+                   </div>
    
                </div> 
            </div>

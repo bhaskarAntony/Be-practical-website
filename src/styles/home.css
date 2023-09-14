@@ -56,6 +56,64 @@
     /* height: 100vh; */
     /* border-radius: 20px; */
 }
+.home-right .lan-icons{
+    max-width: 100px !important;
+    max-height: 100px !important;
+    position: absolute;
+    padding: 10px;
+    
+}
+.home-right .lan-icons img{
+    width: 100%;
+}
+.home-right .icon1{
+    top:20px;
+    right: 20px;
+    width: 90px;
+    height: 90px;
+    animation: icons-anim 1s ease-in-out infinite alternate;
+    animation-delay: 0.2s;
+}
+.home-right .icon2{
+    top:50px;
+    left: 20px;
+    animation: icons-anim 1s ease-in-out infinite alternate;
+    animation-delay: 0.4s;
+}
+.home-right .icon3{
+    top:100px;
+    right: 10%;
+    animation: icons-anim 1s ease-in-out infinite alternate;
+    animation-delay: 0.6s;
+}
+.home-right .icon4{
+    top:50px;
+    right: 40%;
+    animation: icons-anim 1s ease-in-out infinite alternate;
+    animation-delay: 0.8s;
+}
+.home-right .icon5{
+    top:20%;
+    left: 40%;
+    width: 70px;
+    height: 70px;
+    animation: icons-anim 1s ease-in-out infinite alternate;
+    animation-delay: 1s;
+}
+.home-right .icon6{
+    top:20%;
+    left: 20%;
+    animation: icons-anim 1s ease-in-out infinite alternate;
+    animation-delay: 1.2s;
+}
+@keyframes icons-anim{
+    from{
+        transform: translateX(-20px) translateY(-20px);
+    }
+    to{
+        transform: translateX(20px) translateY(20px);
+    }
+}
 
 .students{
     position: absolute; /* Establish a positioning context */
@@ -181,11 +239,11 @@
     font-weight: 500;
 }
 .home-companies .homescroll1{
-    animation: scollhome1 40s linear infinite;
+    animation: scollhome1 60s linear infinite;
     animation-delay: -40s;
 }
 .home-companies .homescroll2{
-    animation: scollhome2 40s linear infinite;
+    animation: scollhome2 60s linear infinite;
     animation-delay: -20s;
 }
 .divider-line-companies {
@@ -324,6 +382,7 @@
         min-height: 100px;
         text-align: center;
         border-radius: 5px;
+        animation:  group-anim 1s linear;
     }
     .form-group:before{
         content:"";
@@ -360,12 +419,23 @@
     .card .form-group-last{
         margin-bottom: 0;
     }
+    .card{
+        position: relative;
+    }
     @keyframes arrow-anim{
         from{
             transform: translateY(-10px);
         }
         to{
             transform: translateY(10px);
+        }
+    }
+    @keyframes group-anim{
+        from{
+            transform: translateY(200px);
+        }
+        to{
+            transform: translateY(0);
         }
     }
     }

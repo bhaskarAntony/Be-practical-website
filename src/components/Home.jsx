@@ -55,6 +55,31 @@ animatedItems.forEach((item) => {
           <div className="col-12 col-md-12 col-lg-5">
             <div className="home-right">
                <img src={homegif} alt="" />
+
+               <div className="lan-icons icon1">
+               <img src="https://static.vecteezy.com/system/resources/previews/012/697/295/original/3d-python-programming-language-logo-free-png.png" alt="" />
+               </div>
+               <div className="lan-icons icon2">
+               <img src="https://cdn3d.iconscout.com/3d/premium/thumb/coding-language-6954433-5708996.png" alt=""  />
+               </div>
+               <div className="lan-icons icon3">
+               <img src="https://cdn3d.iconscout.com/3d/premium/thumb/search-code-6954434-5708997.png" alt=""  />
+               </div>
+               <div className="lan-icons icon4">
+               <img src="https://cdn3d.iconscout.com/3d/premium/thumb/firewall-9337986-7644100.png?f=webp" alt=""  />
+               </div>
+               <div className="lan-icons icon5">
+               <img src="https://cdn3d.iconscout.com/3d/premium/thumb/programming-language-6463741-5734964.png" alt=""  />
+               </div>
+               <div className="lan-icons icon6">
+               <img src="https://cdn3d.iconscout.com/3d/premium/thumb/java-script-8533752-6716439.png" alt="" />
+               </div>
+               
+               
+               
+              
+               
+               
                <div className="wave-image">
 
                </div>

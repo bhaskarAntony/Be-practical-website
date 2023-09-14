@@ -69,7 +69,7 @@
     height: 100%;
     left: -40%;
     top: -70%;
-    background-color: rgba(160, 112, 215, 0.62);
+    background-image: linear-gradient(#4c1d95, #5322ad);
     border-radius: 100%;
     /* filter: blur(90px); */
 
@@ -88,6 +88,29 @@
 .card_container:hover{
     color: #fff;
     cursor: pointer;
+}
+.course-card-btn{
+    display: none;
+}
+.course-card-btn button{
+    grid-column-gap: 6px;
+    color: #fff;
+    text-align: center;
+    background-color: #6d28d9;
+    border: 1px solid #6d28d9;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    padding: 0.75rem 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color .2s;
+    border: 2px solid transparent;
+    display: flex;
+    box-shadow: 0 1px 2px rgba(16, 24, 40, .05);
+}
+.card_container:hover .course-card-btn{
+    display: block;
 }
 .left_card{
     width: 80px;
@@ -186,6 +209,12 @@
 .big-card:hover{
     background: url(https://media2.giphy.com/media/nFMnlDJB8pJ82sfnnW/giphy.gif) no-repeat center;
     background-size: cover;
+}
+.big-card:hover .course-card-btn{
+    display: none;
+}
+.last:hover .course-card-btn{
+    display: none;
 }
 /* .big-card .left_card, .right_card{
     background-color: transparent;
