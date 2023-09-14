@@ -157,7 +157,7 @@ animatedItems.forEach((item) => {
                  </div>
                 </div>
                 <div className="col-12 col-sm-12 col-md-6 col-lg-6">
-                 <div className="form-group">
+                 <div className="form-group form-group-last">
                   <label htmlFor="course" className="form-label">Select Course</label>
                   <select className='form-control'>
                     <option value="mern">MERN</option>

@@ -354,6 +354,12 @@
         color: #fff;
         font-size: 1.2em;
     }
+    .card button{
+        margin-top: 0;
+    }
+    .card .form-group-last{
+        margin-bottom: 0;
+    }
     @keyframes arrow-anim{
         from{
             transform: translateY(-10px);
