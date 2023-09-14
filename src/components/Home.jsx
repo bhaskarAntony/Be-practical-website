@@ -148,10 +148,11 @@ animatedItems.forEach((item) => {
         <div className="divider-line-companies">
           
         </div>
-        <div className="register p-2 align-items-center">
-          <div className="card p-2 rounded-1 py-3">
+       <div className="border-colored">
+       <div className="register p-2 align-items-center">
+          <div className=" p-2 rounded-1 py-3">
             <div className="card-header-text">
-              <span className="fs-3 text-center">Register For Free Demo Session</span>
+              <span className="fs-3 text-center text-white">Register For Free Demo Session</span>
             </div>
           <div className="row mt-2">
             <div className="col-12 col-sm-12 col-md-5 col-lg-5">
@@ -198,6 +199,7 @@ animatedItems.forEach((item) => {
           </div>
           </div>
         </div>
+       </div>
     </div>
     </div>
   )

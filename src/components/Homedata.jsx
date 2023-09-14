@@ -59,8 +59,11 @@ class Homedata extends Component {
               <button className="btn ">Join Now <i className='bu bi-send'></i></button>
             </div>
             <div className="btn-container">
-            <button className='mt-3'>Book Our Free Demo Classes <i className='bi bi-send'></i></button>
-              <button className="btn mt-3">Send Me Message <i className='bi bi-send'></i></button>
+            <button className='mt-3'>Book Our Free Demo Classes</button>
+              <button className="btn mt-3">Send Me Message</button>
+            </div>
+            <div className="arrow">
+              <img src="https://html.ditsolution.net/techno/assets/images/shape/arrow-long.png" alt="" />
             </div>
            
            </div>

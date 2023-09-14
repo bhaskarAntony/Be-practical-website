@@ -117,8 +117,8 @@
 }
 @media (max-width:998px){
     .company{
-        width: 100px;
-        height: 100px;
+        width: 200px;
+        height: 150px;
     }
     .text h1{
         padding: 10px !important;
