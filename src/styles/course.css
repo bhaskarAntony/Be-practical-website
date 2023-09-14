@@ -15,7 +15,7 @@
 }
 .course-info-text{
     font-size: 1.5rem;
-    color: #626161;
+    color: #8d8b8b;
 }
 .course-left{
     min-height:80vh;
@@ -136,7 +136,7 @@
         font-size: 2rem;
     }
     .course-left{
-        min-height: fit-content;
-        padding: 3%;
+        min-height: 50vh;
+        padding: 20px;
     }
 }

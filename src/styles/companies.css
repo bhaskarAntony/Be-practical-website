@@ -6,20 +6,19 @@
     padding: 2% 10px;
     min-width: 100%;
     max-width: 100%;
-    background-color: #fff;
+    background-color: rgb(16, 17, 20);
 
 }
 
 .company-list1, .company-list2{
     display: flex;
-    margin-top: 30px;
     padding: 20px;
     overflow: hidden;
 }
 .company{
     width: 230px;
     height: 150px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(16, 17, 20);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -116,7 +115,7 @@
 }
 .inner{
     height: fit-content;
-    background: #f1f6ff;
+    background: rgb(39, 39, 39);
     border-radius: 20px;
 }
 @media (max-width:998px){
