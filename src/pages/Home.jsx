@@ -12,6 +12,7 @@ import '../styles/home-page.css'
 import Adwantage from '../components/Adwantage'
 import Elite from '../components/Elite'
 import AOS from 'aos';
+import Course from '../components/Course'
 
 
 function Home() {
@@ -22,7 +23,8 @@ function Home() {
     <div className='homepage'>
       <Header/>
       <Elite/>
-      <Courses/>
+      {/* <Courses/> */}
+      <Course/>
       <Councelling/>
       <Companies/>
       <Skills/>
