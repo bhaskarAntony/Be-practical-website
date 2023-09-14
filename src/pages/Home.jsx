@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Header from '../components/Header'
 import Councelling from '../components/Councelling'
 import Placement from '../components/Placement'
@@ -11,9 +11,13 @@ import Placed from '../components/Placed'
 import '../styles/home-page.css'
 import Adwantage from '../components/Adwantage'
 import Elite from '../components/Elite'
+import AOS from 'aos';
 
 
 function Home() {
+  useEffect(() => {
+    AOS.init(); // Initialize AOS
+  }, []);
   return (
     <div className='homepage'>
       <Header/>

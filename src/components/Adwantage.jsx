@@ -3,9 +3,7 @@ import '../styles/adwantage.css'
 import AOS from 'aos';
 
 function Adwantage() {
-    useEffect(() => {
-        AOS.init(); // Initialize AOS
-      }, []);
+
   return (
     <section className='adwantage container-fluid'>
         <div className="blur"></div>

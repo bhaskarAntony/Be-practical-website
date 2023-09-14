@@ -11,7 +11,7 @@ function Courses() {
        <div class="outer_container container">
        
        <div class="container-course container-fluid">
-           <div class="card_container big-card">
+           <div class="card_container big-card" data-aos="fade-down-right">
               <div className="big-card-text">
                 <span className="text-white">
                     Book our pre master classes today.
@@ -20,7 +20,7 @@ function Courses() {
               </div>
            </div>
    
-           <div class="card_container grid-card2">
+           <div class="card_container grid-card2" data-aos="fade-down-right">
                <div class="left_card">
                 <img src="https://cdn-icons-png.flaticon.com/512/4108/4108969.png" alt=""  className='w-100'/>
                </div>
@@ -38,7 +38,7 @@ function Courses() {
                </div>
            </div>
    
-           <div class="card_container grid-card3">
+           <div class="card_container grid-card3" data-aos="fade-down-right">
                <div class="left_card">
                <img src="https://cdn-icons-png.flaticon.com/512/694/694871.png" alt=""  className='w-100'/>
                </div>
@@ -56,7 +56,7 @@ function Courses() {
                </div>
            </div>
    
-           <div class="card_container  grid-card4">
+           <div class="card_container  grid-card4" data-aos="fade-down-right">
                <div class="left_card">
                <img src="https://cdn-icons-png.flaticon.com/512/10061/10061767.png" alt=""  className='w-100'/>
                </div>
@@ -74,7 +74,7 @@ function Courses() {
                </div>
            </div>
    
-           <div class="card_container  grid-card5">
+           <div class="card_container  grid-card5" data-aos="fade-down-right">
                <div class="left_card">
                <img src="https://cdn-icons-png.flaticon.com/512/3475/3475683.png" alt=""  className='w-100'/>
                </div>
@@ -91,7 +91,7 @@ function Courses() {
    
                </div>
            </div>
-           <div class="card_container grid-card1">
+           <div class="card_container grid-card1" data-aos="fade-down-right">
                  <div class="left_card ">
                  <img src="https://cdn-icons-png.flaticon.com/512/2620/2620993.png" alt=""  className='w-100'/>
                </div> 
@@ -109,7 +109,7 @@ function Courses() {
                </div> 
            </div>
 
-           <div class="card_container last">
+           <div class="card_container last" data-aos="fade-down-right">
             <div className="left_card">
 
             </div>
