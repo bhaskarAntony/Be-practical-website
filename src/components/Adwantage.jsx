@@ -1,18 +1,23 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../styles/adwantage.css'
+import AOS from 'aos';
 
 function Adwantage() {
+    useEffect(() => {
+        AOS.init(); // Initialize AOS
+      }, []);
   return (
     <section className='adwantage container-fluid'>
         <div className="blur"></div>
         <div className="blur1"></div>
-        <div className="adwantage-header p-5 text-center text-white">
+        <div className="adwantage-header p-5 text-center text-white" data-aos="fade-up" data-aos-duration="1000">
             <h1>TRAINING ADVANTAGE @ BE-PRACTICAL</h1>
         </div>
         <div className="container">
         <div className="row">
             <div className="col-6 col-sm-6 col-md-6 col-lg-4 mb-3">
-                <div className=" adwantage-card p-2">
+                <div className=" adwantage-card p-2" data-aos="fade-up"
+                            data-aos-anchor-placement="top-center" data-aos-duration="500">
                     <div className="card-header">
                     <i class="bi bi-mortarboard-fill"></i>
                     </div>
@@ -23,7 +28,8 @@ function Adwantage() {
                 </div>
             </div>
             <div className="col-6 col-sm-6 col-md-6 col-lg-4 mb-3">
-                <div className=" adwantage-card p-2">
+                <div className=" adwantage-card p-2" data-aos="fade-up"
+                            data-aos-anchor-placement="top-center" data-aos-duration="500">
                     <div className="card-header">
                     <i class="bi bi-building-fill-check"></i>
                     </div>
@@ -34,7 +40,8 @@ function Adwantage() {
                 </div>
             </div>
             <div className="col-6 col-sm-6 col-md-6 col-lg-4 mb-3">
-                <div className=" adwantage-card p-2">
+                <div className=" adwantage-card p-2" data-aos="fade-up"
+                            data-aos-anchor-placement="top-center" data-aos-duration="500">
                     <div className="card-header">
                     <i class="bi bi-camera-video-fill"></i>
                     </div>
@@ -45,7 +52,8 @@ function Adwantage() {
                 </div>
             </div>
             <div className="col-6 col-sm-6 col-md-6 col-lg-4 mb-3">
-                <div className=" adwantage-card p-2">
+                <div className=" adwantage-card p-2" data-aos="fade-up"
+                            data-aos-anchor-placement="top-center" data-aos-duration="500">
                     <div className="card-header">
                     <i class="bi bi-laptop"></i>
                     </div>
@@ -56,7 +64,8 @@ function Adwantage() {
                 </div>
             </div>
             <div className="col-6 col-sm-6 col-md-6 col-lg-4 mb-3">
-                <div className=" adwantage-card p-2">
+                <div className=" adwantage-card p-2" data-aos="fade-up"
+                            data-aos-anchor-placement="top-center" data-aos-duration="500">
                     <div className="card-header">
                     <i class="bi bi-calendar3"></i>
                     </div>
@@ -67,7 +76,8 @@ function Adwantage() {
                 </div>
             </div>
             <div className="col-6 col-sm-6 col-md-6 col-lg-4 mb-3">
-                <div className=" adwantage-card p-2">
+                <div className=" adwantage-card p-2" data-aos="fade-up"
+                            data-aos-anchor-placement="top-center" data-aos-duration="500">
                     <div className="card-header">
                     <i class="bi bi-person-check-fill"></i>
                     </div>
@@ -79,7 +89,8 @@ function Adwantage() {
             </div>
            
             <div className="col-6 col-sm-6 col-md-6 col-lg-4 mb-3">
-                <div className=" adwantage-card p-2">
+                <div className=" adwantage-card p-2" data-aos="fade-up"
+                            data-aos-anchor-placement="top-center" data-aos-duration="500">
                     <div className="card-header">
                     <i class="bi bi-journals"></i>
                     </div>
@@ -90,7 +101,8 @@ function Adwantage() {
                 </div>
             </div>
             <div className="col-6 col-sm-6 col-md-6 col-lg-4 mb-3">
-                <div className=" adwantage-card p-2">
+                <div className=" adwantage-card p-2" data-aos="fade-up"
+                            data-aos-anchor-placement="top-center" data-aos-duration="500">
                     <div className="card-header">
                     <i class="bi bi-person-hearts"></i>
                     </div>
@@ -101,7 +113,8 @@ function Adwantage() {
                 </div>
             </div>
             <div className="col-6 col-sm-6 col-md-6 col-lg-4 mb-3">
-                <div className=" adwantage-card p-2">
+                <div className=" adwantage-card p-2" data-aos="fade-up"
+                            data-aos-anchor-placement="top-center" data-aos-duration="500">
                     <div className="card-header">
                     <i class="bi bi-person-video3"></i>
                     </div>

@@ -18,11 +18,11 @@
    margin-top: 10px;
    color: #fff;
 }
-.adwantage-card:hover{
+/* .adwantage-card:hover{
     background-color: #a851fe7c;
     border-radius: 20px;
     cursor: pointer;
-}
+} */
 .adwantage-card h4{
     font-size: 1.4em;
     color: #903ef5;
