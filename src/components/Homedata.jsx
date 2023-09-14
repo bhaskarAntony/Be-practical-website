@@ -58,12 +58,17 @@ class Homedata extends Component {
               <button className="btn ">Download Brochure</button>
               <button className="btn ">Join Now <i className='bu bi-send'></i></button>
             </div>
+            <div className="btn-container">
+            <button className='mt-3'>Book Our Free Demo Classes <i className='bi bi-send'></i></button>
+              <button className="btn mt-3">Send Me Message <i className='bi bi-send'></i></button>
+            </div>
+           
            </div>
-            <Carousel.Caption>
+            {/* <Carousel.Caption>
               <div className="caption">
-                {/* Add any caption content here */}
+                {}
               </div>
-            </Carousel.Caption>
+            </Carousel.Caption> */}
           </Carousel.Item>
         ))}
       </Carousel>

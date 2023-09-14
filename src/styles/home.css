@@ -40,6 +40,8 @@
 .home-left{
     padding: 30px;
     height: 100vh;
+    /* backdrop-filter: blur(200px);
+    border: 1px solid #6d28d9; */
 }
 
 .home-right{
@@ -99,6 +101,9 @@
     color: #ffffff;
     padding: 30px;
     
+}
+.carousel-control-prev, .carousel-control-next{
+    visibility: hidden !important;
 }
 .btn-container{
     display: flex;
@@ -300,15 +305,72 @@
         padding: 10px 5px;
         width: 100%;
     }
+   
 }
+@media (max-width:600px){
+     .register .card{
+        background: transparent !important;
+    }
+    .card-header-text{
+        text-align: center;
+        color: #fff;
+        margin-bottom: 40px;
+    }
+    .register .card .form-group{
+        background-color: #fff;
+        padding: 10px;
+        margin-bottom: 55px;
+        position:relative;
+        min-height: 100px;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .form-group:before{
+        content:"";
+        position:absolute;
+        width: 3px;
+        height: 100%;
+        background:#ffffff;
+        top:-100%;
+        left:49%;
+        opacity: .32;
+        background-image: linear-gradient(to top, rgba(255, 255, 255, 0), #fff 50%, rgba(255, 255, 255, 0));
+        padding-right: 0;
+    }
+    .form-group:after{
+        content:"\2193";
+        position:absolute;
+        width: 30px;
+        height: 30px;
+        background:#632ac5;
+        top:-42px;
+        left:46.4%;
+        border-radius: 100px;
+        font-weight: bolder;
+        /* opacity: .32; */
+        border: 2px solid #fff;
+        padding-right: 0;
+        animation: arrow-anim 1s linear infinite alternate;
+        color: #fff;
+        font-size: 1.2em;
+    }
+    @keyframes arrow-anim{
+        from{
+            transform: translateY(-10px);
+        }
+        to{
+            transform: translateY(10px);
+        }
+    }
+    }
 @media (max-width:998px){
     .home-left{
         max-height: fit-content;
         min-height: fit-content;
     }
-    .carousel-box{
+    /* .carousel-box{
         max-height: fit-content;
         height: fit-content;
         min-height: fit-content;
-    }
+    } */
 }

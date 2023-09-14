@@ -128,18 +128,20 @@ animatedItems.forEach((item) => {
         </div>
         <div className="register p-2 align-items-center">
           <div className="card p-2 rounded-1 py-3">
-            <span className="fs-3 text-center">Register For Free Demo Session</span>
+            <div className="card-header-text">
+              <span className="fs-3 text-center">Register For Free Demo Session</span>
+            </div>
           <div className="row mt-2">
             <div className="col-12 col-sm-12 col-md-5 col-lg-5">
               <div className="row">
                 <div className="col-12 col-sm-12 col-md-6 col-lg-6">
-                  <div className="from-group">
+                  <div className="form-group">
                     <label htmlFor="name" className="form-label">Enter Your Name</label>
                     <input type="text" placeholder='Name' className='form-control' />
                   </div>
                 </div>
                 <div className="col-12 col-sm-12 col-md-6 col-lg-6">
-                <div className="from-group">
+                <div className="form-group">
                   <label htmlFor='phone' className="form-label">Mobile Number</label>
                   <input type="text" placeholder='Phone' className='form-control' />
                  </div> 
@@ -149,7 +151,7 @@ animatedItems.forEach((item) => {
             <div className="col-12 col-sm-12 col-md-5 col-lg-5">
               <div className="row">
                 <div className="col-12 col-sm-12 col-md-6 col-lg-6">
-                 <div className="from-group">
+                 <div className="form-group">
                   <label htmlFor='phone' className="form-label">Mobile Number</label>
                   <input type="text" placeholder='Phone' className='form-control' />
                  </div>
