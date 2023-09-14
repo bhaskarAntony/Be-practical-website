@@ -123,4 +123,7 @@
     .course-big-text{
         font-size: 2rem;
     }
+    .course-left{
+        min-height: fit-content;
+    }
 }

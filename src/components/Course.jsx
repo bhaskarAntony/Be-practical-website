@@ -7,9 +7,12 @@ function Course() {
       <div className="row">
         <div className="col-12 col-md-12 col-lg-6">
             <div className="course-left">
-                <h1 className='course-big-text'>We are providing feautured courses</h1>
-                <p className="course-info-text">Hire from the biggest pre-screened talent pool in the country in 15 minutes.</p>
-                <button className=" course-join">Join Now</button>
+                <h1 className='course-big-text'  data-aos="fade-up"
+     data-aos-duration="500">We are providing feautured courses</h1>
+                <p className="course-info-text"  data-aos="fade-up"
+     data-aos-duration="500">Hire from the biggest pre-screened talent pool in the country in 15 minutes.</p>
+                <button className=" course-join"  data-aos="fade-up"
+     data-aos-duration="500">Join Now</button>
             </div>
         </div>
         <div className="col-12 col-md-12 col-lg-6">
