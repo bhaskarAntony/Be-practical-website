@@ -15,6 +15,7 @@ function Course() {
         <div className="col-12 col-md-12 col-lg-6">
             <div className="course-right">
                 <div className="course-card">
+                  <div className="course-card-curve"></div>
                  <div>
                  <h3 className='course-name'>Full-stack</h3>
                   weprovide full stack develoment course in bang;ore with placement assistance and flexible payment option
