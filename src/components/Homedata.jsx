@@ -43,7 +43,7 @@ class Homedata extends Component {
            <div className="carousel-box">
            <span className='boldtext'>{item.boldtext}</span>
             <span className='normaltext'>{item.normaltext}</span>
-            <div className="points">
+            {/* <div className="points">
               <ul>
                 <li>Industry Experts Trainers</li>
                 <li>Job Oriented Syllabus</li>
@@ -53,7 +53,7 @@ class Homedata extends Component {
                 <li>Industry Recognized Certificate</li>
                 <li>Join Now</li>
               </ul>
-            </div>
+            </div> */}
             <div className="btn-container">
               <button className="btn ">Download Brochure</button>
               <button className="btn ">Join Now <i className='bu bi-send'></i></button>

@@ -7,20 +7,16 @@ import Menu from './Menu';
 import homegif from '../images/homegif.gif'
 const data = [
   {
-    boldtext:"High Paid Salaries &",
-    normaltext:"Continuous Career Grouth"
+    boldtext:"High Paid Salaries & Continuous Career Grouth",
 },
 {
-  boldtext:"Be Practicle",
-  normaltext:"Job Oriented Training"
+  boldtext:"Be Practicle Job Oriented Training",
 },
 {
-  boldtext:"High Paid Salaries &",
-  normaltext:"Continuous Career Grouth"
+  boldtext:"High Paid Salaries & Continuous Career Grouth",
 },
 {
-  boldtext:"Be Practicle",
-  normaltext:"Job Oriented Training"
+  boldtext:"Be Practicle Job Oriented Training",
 }
 ]
 
@@ -38,7 +34,8 @@ animatedItems.forEach((item) => {
   item.style.animationDelay = `${getRandomDelay()}ms`;
 });
   return (
-    <div className='home container-fluid'>
+    <div className="home-container-black">
+      <div className='home container-fluid'>
       <Menu/>
       <div className="blur">
 
@@ -201,6 +198,7 @@ animatedItems.forEach((item) => {
           </div>
           </div>
         </div>
+    </div>
     </div>
   )
 }

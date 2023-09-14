@@ -8,7 +8,7 @@
     margin-bottom: 10px;
     min-width: 100%;
     max-width: 100%;
-    background-color: #fff;
+    background-color: rgb(16, 17, 20);
 }
 
 .pcard img{
@@ -28,7 +28,7 @@ border: 0;
 background: var(--color);
 font-size: 1.2em;
 border-radius: 30px;
-box-shadow: 0px 0px 10px #DFCCFB;
+/* box-shadow: 0px 0px 10px #DFCCFB; */
 position: relative;
 overflow: hidden;
 }
@@ -90,7 +90,7 @@ color: #4b4b4b;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     padding: 20px;
-    background-color: #e0e0e16d;
+    background-color: #3f3e3ef4;
     border-radius: 20px;
 }
 .card-first{

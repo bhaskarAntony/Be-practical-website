@@ -12,6 +12,10 @@
   .homepage::-webkit-scrollbar {
     display: none; 
   } */
+  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Libre+Barcode+39+Extended+Text&family=Libre+Franklin&family=Noto+Sans:wght@300&family=Poppins:wght@400;600&family=Press+Start+2P&family=Rubik&family=Tilt+Prism&family=Wallpoet&family=Work+Sans:wght@300&display=swap');
   .homepage{
     background-color: rgb(255, 255, 255);
+  }
+  *{
+    font-family: 'Poppins', sans-serif;
   }
