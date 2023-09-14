@@ -1,5 +1,6 @@
 .adwantage{
-    background-image: linear-gradient(#0e0b13, #18141d);
+    /* background-image: linear-gradient(#0e0b13, #18141d); */
+    background: rgb(16, 17, 20);
     min-height: 100vh;
     position: relative;
 }
@@ -42,7 +43,7 @@
     bottom: auto;
     left: 0%;
     right: 0%;
-    background-color: rgba(255, 255, 255, 0.612);
+    background-color: rgba(92, 0, 240, 0.612);
     margin-left: auto;
     margin-right: auto;
 }

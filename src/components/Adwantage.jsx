@@ -7,7 +7,7 @@ function Adwantage() {
   return (
     <section className='adwantage container-fluid'>
         <div className="blur"></div>
-        <div className="blur1"></div>
+        <div className="blur2"></div>
         <div className="adwantage-header p-5 text-center text-white" data-aos="fade-up" data-aos-duration="1000">
             <h1>TRAINING ADVANTAGE @ BE-PRACTICAL</h1>
         </div>
