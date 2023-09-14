@@ -14,42 +14,54 @@ function Elite() {
        
         <div className="row">
           <div className="col-12 col-sm-12 col-md-3 col-lg-2">
-            <div className="elite-card elite-c1">
+            <div className="elite-card elite-c1" data-aos="fade-left"
+     data-aos-offset="500"
+     data-aos-duration="500">
             <i class="bi bi-cash-stack"></i>
               <h4 className='elite-card-text-main'>Refund</h4>
             </div>
           </div>
 
           <div className="col-12 col-sm-12 col-md-3 col-lg-2">
-            <div className="elite-card elite-c2">
+            <div className="elite-card elite-c2" data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-duration="500">
             <i class="bi bi-code-slash"></i>
               <h4 className='elite-card-text-main'>DSA</h4>
             </div>
           </div>
 
           <div className="col-12 col-sm-12 col-md-3 col-lg-2">
-            <div className="elite-card  elite-c3">
+            <div className="elite-card  elite-c3" data-aos="fade-left"
+     data-aos-offset="500"
+     data-aos-duration="500">
             <i class="bi bi-stars"></i>
               <h4 className='elite-card-text-main'>Softskills</h4>
             </div>
           </div>
 
           <div className="col-12 col-sm-12 col-md-3 col-lg-2">
-            <div className="elite-card  elite-c4">
+            <div className="elite-card  elite-c4" data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-duration="500">
             <i class="bi bi-person-check-fill"></i>
               <h4 className='elite-card-text-main'>Internship</h4>
             </div>
           </div>
 
           <div className="col-12 col-sm-12 col-md-3 col-lg-2">
-            <div className="elite-card  elite-c5">
+            <div className="elite-card  elite-c5" data-aos="fade-left"
+     data-aos-offset="500"
+     data-aos-duration="500">
             <i class="bi bi-building-fill-up"></i>
               <h4 className='elite-card-text-main'>Placemnet Assistant</h4>
             </div>
           </div>
 
           <div className="col-12 col-sm-12 col-md-3 col-lg-2">
-            <div className="elite-card  elite-c6">
+            <div className="elite-card  elite-c6" data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-duration="500">
             <i class="bi bi-building-fill-up"></i>
               <h4 className='elite-card-text-main'>Add Once</h4>
             </div>

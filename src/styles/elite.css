@@ -121,3 +121,10 @@
         right: 10%;
     }
 }
+@media (max-width:768px){
+    .elite-card{
+        flex-direction: row;
+        min-height: fit-content;
+        justify-content: flex-start;
+    }
+}
