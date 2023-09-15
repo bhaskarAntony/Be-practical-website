@@ -1,8 +1,7 @@
 .training{
     min-height: 90vh;
-    margin-top: 20px;
     overflow: hidden;
-    background-color: #eeeeee;
+    background-color: rgb(28, 28, 30);
     padding: 2%;
     min-width: 100%;
     max-width: 100%;
@@ -11,9 +10,9 @@
    height: 50vh;
     overflow: hidden;
     border-radius: 30px;
-    background-color: #FFF8D6;
+    background-color: transparent;
     border: 2px solid #000;
-    border-bottom: 4px solid #000;
+    /* border-bottom: 4px solid #000; */
 }
 .training-bottom{
     min-height: 20vh;
@@ -23,6 +22,7 @@
     overflow: hidden;
     height: 100%;
     border-radius: 20px;
+    background: #FF4646;
 
 }
 .training-right img{
@@ -30,14 +30,14 @@
     height: 100%;
 }
 .border-layout1{
-    background-color: #FFF8D6;
+    background-color: rgb(16, 17, 20);
     border: 2px soild #000;
     color: #000000;
     overflow: hidden;
     border-radius: 20px 0px 0px 20px;
 }
 .border-layout2{
-    background-color: #FFF8D6;
+    background-color: rgb(16, 17, 20);
     overflow: hidden;
     border: 2px soild #000;
     border-radius: 0px 20px 20px 0px;
@@ -51,10 +51,14 @@
     position: relative;
 
 }
+.training-left{
+    background: #A0D8B3;
+}
 .training-right{
+    background: #FFB740;
 }
 .train-card{
-    box-shadow: 0px 0px 10px #d6feef;
+    /* box-shadow: 0px 0px 10px #d6feef; */
     padding: 0 10px;
     min-height: 100%;
     border-radius: 30px;
@@ -83,8 +87,20 @@
     opacity: 0;
 }
 
-.train-card p{
+.training-card p{
     margin-top: 10px;
+}
+.training-card1{
+    background: #7DCE94;
+}
+.training-card2{
+    background: #FFEBEB;
+}
+.training-card3{
+    background: #E8D4B4;
+}
+.training-card4{
+    background: #FE8A71;
 }
 .train-card [class*="bi"]{
     font-size: 3em;
@@ -94,8 +110,8 @@
     width: 130px !important;
     color: #fff;
     height: 130px !important;
-    margin-left: -50px;
-    margin-top: -50px;
+    margin-left: -40px;
+    margin-top: -30px;
     display: inline-block;
     border: 2px solid #7f4ed9;
     border-bottom: 5px solid #7a47da;
@@ -110,9 +126,6 @@
 } 
 .text-header{
     margin-top: 30px;
-}
-.training{
-
 }
 @media (max-width:768px){
     .training-top{
@@ -129,7 +142,7 @@
     z-index: -10;
     transition: 0.6s;
     cursor: pointer;
-    color: #fff !important;
+    color: #171717 !important;
 }
 .train-card:hover{
     color: #fff !important;

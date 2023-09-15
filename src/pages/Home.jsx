@@ -31,7 +31,7 @@ function Home() {
       <Skills/>
       <Training/>
       <Adwantage/>
-      <Placed/>
+      {/* <Placed/> */}
       <Footer/>
     </div>
   )

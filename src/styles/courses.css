@@ -40,6 +40,9 @@
     border-radius: 30px;
 
 }
+.training-heade{
+    background:rgb(25, 27, 27);
+}
 .card_container{
     min-width: 400px;
     min-height:100vh;

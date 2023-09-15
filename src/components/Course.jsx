@@ -3,7 +3,12 @@ import '../styles/course.css'
 
 function Course() {
   return (
+    <>
+     <div className="text-container  text-center">
+            <h3 className='training-header text-white fs-1'>Take Our Best Courses</h3>
+        </div>
    <div className="course-container-black">
+   
      <div className='container-fluid second-course'>
       <div className="row">
         <div className="col-12 col-md-12 col-lg-6">
@@ -67,6 +72,8 @@ function Course() {
       </div>
     </div>
    </div>
+   </>
+
   )
 }
 

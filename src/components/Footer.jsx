@@ -5,7 +5,6 @@ function Footer() {
   return (
     <>
     <div className="footer-wave">
-s
     </div>
     <section className="footer_container container-fluid">
     <div className="row">
